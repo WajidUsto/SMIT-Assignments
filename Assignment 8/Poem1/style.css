@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#nav{
+    padding-top: 64px;
+    margin: -41px;
+    height: 52px;
+    background-color: #8A2BE2;
+}
+a{
+  padding: auto;
+  margin-left: 12%;
+  color: azure;
+  font-size: 25px;
+  text-decoration: none;
+}
+#main{
+  text-align: center;
+  margin: 47px;
+  font-family: 'Luckiest Guy';
+  color: aqua;
+  font-size: 70px;
+}
+#P{
+  color: #ADFF2F;
+  font-size: 125px;
+}
+.para{
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: bold;
+  color: teal;
+  font-size: 21px;
+}
+#red{
+  color: #A52A2A;
+}
