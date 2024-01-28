@@ -3,8 +3,8 @@
   margin: 0;
 }
 #nav{
-  margin: 15px;
-  height: 70px;
+  padding-top: 24px;
+  height: 52px;
   background-color: #8A2BE2;
 }
 a{
@@ -16,14 +16,14 @@ a{
 }
 #main{
   text-align: center;
-  font-family: 'Pacifico';
-  color: rgb(233, 0, 182);
+  margin: 47px;
+  font-family: 'Luckiest Guy';
+  color: aqua;
   font-size: 70px;
 }
 #P{
-  color: #03A9F4;
+  color: #ADFF2F;
   font-size: 125px;
-  font-family: cursive;
 }
 .para{
   text-align: center;

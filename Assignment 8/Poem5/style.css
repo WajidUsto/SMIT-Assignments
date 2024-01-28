@@ -3,10 +3,9 @@
   margin: 0;
 }
 #nav{
-    padding-top: 64px;
-    margin: -41px;
-    height: 52px;
-    background-color: #8A2BE2;
+  padding-top: 24px;
+  height: 52px;
+  background-color: #8A2BE2;
 }
 a{
   padding: auto;
