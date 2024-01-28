@@ -1,21 +1,8 @@
 img{
   height: 700px;
 }
-#cards1{
-  position: relative;
-  margin-top: 19px;
-  margin-left: 167px;
-  
-}
-#cards2{
-  width: 18rem;
-    position: absolute;
-    bottom: -3px;
-    left: -69px;
-}
-#cards3{
-  width: 18rem;
-    position: absolute;
-    bottom: -3px;
-    left: -69px;
+#container{
+  display: flex;
+  gap: 200px;
+  margin: 26px;
 }
