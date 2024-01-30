@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 3rem;
+}
+#logo{
+  height: 10rem;
+  border-radius: 50%;
+  background-color: #d3d6d7;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d3d6d7;
+  padding: 1rem 0rem 1rem 0rem;
+}
+.nav-items{
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+}
+nav{
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#buttons{
+  display: flex;
+  font-size: 1.6rem;
+  gap: 1.5rem;
+}
+button{
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  background-color: black;
+  color: white;
+  font-size: inherit;
+  border-radius: 25%;
+}
+#banner{
+  width: 100%;
+}
+@media (min-width: 640px) {
+  html{
+      font-size: 45%;
+  }
+}
+@media (min-width: 768px) {
+  html{
+      font-size: 50%;
+  }
+}
+@media (min-width: 850px) {
+  html{
+      font-size: 55%;
+  }
+}
+@media (min-width: 1024px) {
+  html{
+      font-size: 60%;
+  }
+}
+@media (min-width: 1150px) {
+  html{
+      font-size: 61%;
+  }
+}
+@media (min-width: 1350px) {
+  html{
+      font-size: 62.5%;
+  }
+}
