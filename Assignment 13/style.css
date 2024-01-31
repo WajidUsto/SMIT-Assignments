@@ -1,0 +1,33 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(150px,auto);
+}
+.items{
+  background-color: blueviolet;
+  border: 2px solid black;
+  text-align: center;
+  padding: 20px;
+}
+
+h1{
+  text-align: center;
+  font-size: xxx-large;
+}
+#item1{
+  grid-row-start : 1;
+  grid-row-end : 4;
+  padding : 20px;
+  background-color: #6DBE4F;
+} 
+#item2{
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: #6DBE4F;
+} 
