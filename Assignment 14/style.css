@@ -1,22 +1,24 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   text-align: center;
 }
-h1,h3{
-  margin: 20px;
+h1{
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
-#text{
-  margin: 20px;
+hr{
+  margin-bottom: 20px;
 }
-span{
-  font-size: 18px;
-  font-weight: bold;
+p{
+  margin-bottom: 20px;
 }
-#click{
-  margin: 20px;
+h3{
+  margin-bottom: 25px;
+}
+h2{
+  margin-bottom: 15px;
 }
 img{
-  height: 100px;
+  height: 120px;
 }

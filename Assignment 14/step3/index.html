@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Details</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <a href="./index.html">
+            <span id="span1">
+            Step 1: Account Details
+            </span>
+        </a>
+        <a href="../step2/index.html">
+            <span>
+                Step 2: Personal Details
+            </span>
+        </a>
+        <a href="../step3/index.html">
+            <span id="span3">
+                Step 3: Your Review
+            </span>
+        </a>
+    </div>
+    <form>
+        <fieldset>
+            <legend>Account</legend>
+            <label class="ib" id="nopad" class="block">How did you hear about us?</label>
+            <select>
+                <option value="fb">Select Your Option</option>
+                <option value="fb">Facebook</option>
+                <option value="google">Google</option>
+                <option value="ig">Instagram</option>
+                <option value="twitter">Twitter</option>
+                <option value="gh">Github</option>
+            </select>
+            <label class="block pad">Would you visit us again?</label>
+            <input class="nowid" type="radio" name="radio">
+            <label class="ib">Yes</label>
+            <input class="nowid" type="radio" name="radio">
+            <label class="ib">No</label>
+            <input class="nowid" type="radio" name="radio">
+            <label class="ib">Maybe</label>
+            <label class="block pad">Comments:</label>
+            <textarea cols="30" rows="10" placeholder="Enter Your Comments Here;" ></textarea>
+            <label class="block pad">Documents:</label>
+                <input class="nowid block" type="file" required>
+                <input class="nowid" type="checkbox" checked>
+                <label class="nowid pad">Sign me up for future updates!</label>
+                <br>
+                    <a href="../step2/index.html"><img class="back" src="../Images/back.png"></a>
+                    <a href="../step3/index.html"><img class="back" src="../Images/submit.png"></a>
+        </fieldset>
+    </form>
+</body>
+</html>

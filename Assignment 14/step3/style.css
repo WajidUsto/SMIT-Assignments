@@ -1,0 +1,81 @@
+*{
+  text-align: center;
+}
+span{
+  display: inline-block;
+  padding: 9px;
+  font-size: 20px;
+}
+div{
+  height: 41px;
+  background-color: #a4dd9e;
+  margin: auto;
+  width: fit-content;
+  top: 10vh;
+  position: relative;
+  display: flex;
+}
+#span3{
+  background-color: #72a3de;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+form{
+  margin: auto;
+  width: 600px;
+  top: 15vh;
+  position: relative;
+}
+legend{
+  text-align: left;
+  font-size: 120%;
+}
+fieldset{
+  text-align: left;
+  font-size: 120%;
+  padding-left: 3%;
+  padding-bottom: 8px;
+  border: 2px solid black;
+}
+input{
+  text-align: left;
+}
+.block{
+  display: block;
+}
+label{
+  text-align: left;
+}
+.pad{
+  padding-top: 20px;
+}
+#nopad{
+  padding-top: 10px;
+}
+.back{
+  height: 50px;
+  padding-top: 20px;
+}
+input{
+  font-size: 85%;
+  padding: 8px;
+  width: 85%;
+}
+select{
+  background-color: #e2ecff;
+  padding: 2px;
+}
+.ib{
+  display: inline-block;
+}
+.nowid{
+  width: fit-content;
+}
+textarea{
+  text-align: left;
+  width: 55%;
+  height: 70px;
+}
