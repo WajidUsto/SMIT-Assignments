@@ -13,7 +13,7 @@ body{
 }
 
 .logo {
-  height: 24px;
+  height: 1.5rem;
 }
 
 .arabic {
@@ -48,7 +48,7 @@ body{
 }
 
 .all-categories {
-  width: 15%;
+  width: 17%;
 }
 
 .mynavbottom {
@@ -62,13 +62,15 @@ body{
 .second-nav {
   background-color: #fcfbf4;
   padding: 1rem;
+  font-size: 1rem;
+  align-items: center;
 }
 
 .drop-end {
   margin-left: 5px;
   background-color: #fcfbf4;
   border: none;
-  font-size: 17px;
+  font-size: 1.1rem;
 }
 
 .notextdeco {
@@ -227,6 +229,66 @@ body{
   box-sizing: content-box;
 }
 
+.love-add{
+  width: 12%;
+  max-width: unset;
+  height: 9%;
+  max-height: unset;
+  position: absolute;
+  top: 0.7rem;
+  right: 0.5rem;
+  background-color: #f8f8f9;
+  border-radius: 50%;
+  padding: 3%;
+  box-sizing: content-box;
+}
+
+.cart-add-2{
+  width: 12%;
+  max-width: unset;
+  height: 9%;
+  max-height: unset;
+  position: absolute;
+  bottom: 0.6rem;
+  right: 0.5rem;
+  background-color: #f8f8f9;
+  border-radius: 50%;
+  padding: 3%;
+  box-sizing: content-box;
+}
+
+.my-star-rating{
+  display: flex;
+  max-width: unset;
+  max-height: unset;
+  position: absolute;
+  bottom: 1rem;
+  left: 0.8rem;
+  background-color: #f8f8f9;
+  padding: 0 1%;
+  box-sizing: content-box;
+  column-gap: 0.25rem;
+  border-radius: 0.5rem;
+  align-items: baseline;
+}
+
+.my-star-rating-text-1{
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.my-star-rating-text-2{
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgb(155, 160, 177);
+}
+
+.my-star-rating-icon{
+  font-size: 0.7rem;
+  color: green;
+  align-self: center;
+}
+
 .all-deals-btn{
   align-self: center;
   font-size: 1rem;
@@ -263,22 +325,8 @@ body{
   row-gap: 1rem;
 }
 
-.jbkHKC{
-  width: 15.5%;
-  background-color: rgb(255, 255, 255);
-  color: rgb(64, 69, 83);
-  padding: 15px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  border: 1px solid rgb(229, 229, 229);
-}
-
-.card-my-5{
-  width: 100%;
-  border-radius: 10px!important;
-  border: none!important;
-  background-color: #f8f8f9;
+.border-radius-inherit{
+  border-radius: inherit;
 }
 
 
@@ -292,11 +340,30 @@ body{
 
 
 
-@media (max-width: 750px) {
-  .second-nav{
-      padding: 0.4rem 1rem;
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1280px) {
   html{
       font-size: 95%;
@@ -311,6 +378,9 @@ body{
   html{
       font-size: 87%;
   }
+  .second-nav {
+  padding: 0.6rem;
+}
 }
 @media (max-width: 1000px) {
   html{
@@ -322,6 +392,9 @@ body{
   }
   .in-focus-text{
       font-size: 1.4rem;
+  }
+  .second-nav {
+      font-size: 0.95rem;
   }
   .in-focus-text-2{
       font-size: 1.4rem;
@@ -348,6 +421,9 @@ body{
   .card-my{
       border-radius: 5px!important;
   }
+  .card-my-2{
+      border-radius: 5px!important;
+  }
   .all-deals-btn {
       font-size: 0.8rem;
       padding: 5.5px 10px;
@@ -355,8 +431,30 @@ body{
   .in-focus-text{
       font-size: 1.3rem;
   }
+  .second-nav {
+      font-size: 0.9rem;
+  }
   .in-focus-text-2{
       font-size: 1.3rem;
+  }
+  .my-star-rating{
+      bottom: 0.8rem;
+      column-gap: 0.22;
+      border-radius: 0.4rem;
+  }
+  .my-star-rating-text-1{
+      font-size: 0.85rem;
+  }
+  
+  .my-star-rating-text-2{
+      font-size: 0.85rem;
+  }
+  
+  .my-star-rating-icon{
+      font-size: 0.65rem;
+  }
+  .second-nav {
+  padding: 0.5rem;
   }
 }
 
@@ -368,8 +466,29 @@ body{
       font-size: 0.8rem;
       padding: 5.5px 8px;
   }
+  .second-nav {
+  padding: 0.4rem;
+  }
 }
-
+@media (max-width: 750px) {
+  .second-nav{
+      padding: 0.5rem 0.5rem;
+  }
+  .my-star-rating{
+      column-gap: 0.2;
+  }
+  .my-star-rating-text-1{
+      font-size: 0.8rem;
+  }
+  
+  .my-star-rating-text-2{
+      font-size: 0.8rem;
+  }
+  
+  .my-star-rating-icon{
+      font-size: 0.6rem;
+  }
+}
 @media (max-width: 700px) {
   html{
       font-size: 67%;
@@ -386,11 +505,17 @@ body{
   .meyata{
       margin: 0 0.4rem 0 0;
   }
+  .second-nav{
+      padding: 0.5rem 0.5rem;
+  }
 }
 
 @media (max-width: 600px) {
   html{
       font-size: 62%;
+  }
+  .baf{
+      display: none;
   }
   .meyata{
       margin: 0 0.3rem 0 0;
@@ -404,6 +529,26 @@ body{
   }
   .classofrowgap{
       row-gap: 0.8rem;
+  }
+  .my-star-rating-icon{
+      align-self: inherit;
+  }
+  .my-star-rating{
+      column-gap: 0.175;
+  }
+  .my-star-rating-text-1{
+      font-size: 0.7rem;
+  }
+  
+  .my-star-rating-text-2{
+      font-size: 0.7rem;
+  }
+  
+  .my-star-rating-icon{
+      font-size: 0.5rem;
+  }
+  .second-nav{
+      padding: 0.4rem 0.5rem;
   }
 }
 
@@ -435,11 +580,34 @@ body{
   .in-focus-text{
       font-size: 1.1rem;
   }
+  .second-nav {
+      font-size: 0.8rem;
+  }
   .in-focus-text-2{
       font-size: 1.1rem;
   }
   .classofrowgap{
       row-gap: 0.7rem;
+  }
+  .my-star-rating-icon{
+      align-self: inherit;
+  }
+  .my-star-rating{
+      column-gap: 1px;
+  }
+  .my-star-rating-text-1{
+      font-size: 0.6rem;
+  }
+  
+  .my-star-rating-text-2{
+      font-size: 0.6rem;
+  }
+  
+  .my-star-rating-icon{
+      font-size: 0.4rem;
+  }
+  .second-nav{
+      padding: 0.3rem 0.4rem;
   }
 }
 
@@ -449,6 +617,12 @@ body{
   }
   .eight-nine-nine{
       font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .all-categories{
+      width: 18.5%;
   }
 }
 
@@ -472,11 +646,34 @@ body{
   .in-focus-text {
       font-size: 0.9rem;
   }
+  .second-nav {
+      font-size: 0.7rem;
+  }
   .in-focus-text-2{
       font-size: 0.9rem;
   }
   .classofrowgap{
       row-gap: 0.6rem;
+  }
+  .my-star-rating-icon{
+      align-self: inherit;
+  }
+  .my-star-rating-text-1{
+      font-size: 0.5rem;
+  }
+  
+  .my-star-rating-text-2{
+      font-size: 0.5rem;
+  }
+  
+  .my-star-rating-icon{
+      font-size: 0.3rem;
+  }
+  .my-star-rating{
+      bottom: 0.7rem;
+  }
+  .second-nav{
+      padding: 0.2rem 0.4rem;
   }
 }
 
@@ -487,19 +684,37 @@ body{
   .classofrowgap{
       row-gap: 0.45rem;
   }
-}
-
-
-
-@media (max-width: 1100px) {
-  .han {
-      display: none;
+  .my-star-rating-icon{
+      align-self: inherit;
+  }
+  .my-star-rating-text-1{
+      font-size: 0.45rem;
+  }
+  
+  .my-star-rating-text-2{
+      font-size: 0.45rem;
+  }
+  
+  .my-star-rating-icon{
+      font-size: 0.25rem;
+  }
+  .my-star-rating{
+      bottom: 0.7rem;
   }
 }
 
 @media (max-width: 1150px) {
   .cart-add{
       right: 0.3rem;
+  }
+  .cart-add-2{
+      right: 0.3rem;
+  }
+  .love-add{
+      right: 0.3rem;
+  }
+  .my-star-rating{
+      left: 0.6rem;
   }
 }
 
@@ -528,10 +743,6 @@ body{
       width: 23%;
   }
 
-  .ba {
-      display: none;
-  }
-
   .drop-end {
       margin-left: 4px;
   }
@@ -542,7 +753,7 @@ body{
       width: 35%;
   }
 
-  .baf {
+  .ba {
       display: none;
   }
 }
@@ -558,9 +769,9 @@ body{
       width: 50%;
   }
 
-  .wom {
+  /* .wom {
       display: none;
-  }
+  } */
 }
 
 @media (max-width: 412px) {
@@ -574,7 +785,7 @@ body{
       width: 75%;
   }
 
-  .mn {
+  /* .mn {
       display: none;
-  }
+  } */
 }
