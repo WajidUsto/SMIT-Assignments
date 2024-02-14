@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black !important;
+  width: 62.5%;
+}
+.logo{
+  width: 15em;
+}
