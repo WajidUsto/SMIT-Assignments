@@ -2,12 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background-color: black; */
 }
-
-body{
-  background-color: black !important;
-  width: 62.5%;
-}
-.logo{
-  width: 15em;
+.div{
+  display: flex;
+  justify-content: flex-end;
 }
