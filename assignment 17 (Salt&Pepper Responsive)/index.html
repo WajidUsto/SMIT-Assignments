@@ -1,47 +1,794 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-black">
-      <div class="container-fluid">
-        <a href="./index.html"><img class="" src="./assets/logo.webp" alt="logo" width="150px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="text-white">
-          <ul class=" text-uppercase ">
-          <a class="text-decoration-none text-white" href="">Home</a>
-          <a class="text-decoration-none text-white" href="">Contact Us</a>
-          <a class="text-decoration-none text-white" href="">Publiacations</a>
-          <a class="text-decoration-none text-white" href="">FeedBack</a>
-          </ul>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt'n Pepper</title>
+    <link rel="stylesheet" href="./style.css">
+    <link media="print" onload="this.media='all'" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+        rel="stylesheet" />
+    <link media="print" onload="this.media='all'" rel="stylesheet"
+        href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link media="print" onload="this.media='all'" rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link media="print" onload="this.media='all'" rel="stylesheet"
+        href="https://pro.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-iKbFRxucmOHIcpWdX9NTZ5WETOPm0Goy0WmfyNcl52qSYtc2Buk0NCe6jU1sWWNB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- navbar started -->
+    <!-- navbar started -->
+    <div class="py-3 text-center">
+        <header id="header">
+            <a href="index.html">
+                <img id="logo" src="./assets/logo.webp">
+            </a>
+            <nav class="navbar">
+                <ul class="listtypenone navbar-items">
+                    <li><a class="notextdeco hover" href="./index.html">Home</a></li>
+                    <li><a class="notextdeco hover" href="./about/about-us.html">About Us</a></li>
+                    <li><a class="notextdeco hover" href="./publications/publications.html">Publications</a></li>
+                    <li><a class="notextdeco hover" href="./feedback/feedback.html">Feedback</a></li>
+                </ul>
+                <ul id="buttons" class="listtypenone">
+                    <li><a id="firstbutton" class="notextdeco buttons" href="./franchise/get-a-franchise.html">Get a
+                            Franchise</a></li>
+                    <li><a id="secondbutton" class="notextdeco buttons" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a></li>
+                    <i id="bar" class="fa-solid fa-bars"></i>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- navbar ended -->
+    <!-- navbar ended -->
+
+
+
+    <!-- main banner start -->
+    <!-- main banner start -->
+    <img class="banner-pc w-100" src="https://static.tossdown.com/images/ac51af11-090c-49e8-9296-472de72fc5cb.webp" alt="">
+    <img class="w-100 banner-mobile" src="https://static.tossdown.com/images/9291d42d-3c8b-4c82-a9bb-fef5f9802269.webp" alt="">
+    <!-- main banner ended -->
+    <!-- main banner ended -->
+
+
+
+    <!-- welcome section started -->
+    <!-- welcome section started -->
+    <div class="pt-5" id="welcome-outside">
+        <div class="mx-auto" id="welcome-main">
+            <span id="welcome-text">
+                Welcome to
+                <span class="logo-text">
+                    Salt'n Pepper
+                </span>
+                <br>
+                Restaurants! Our Brands
+            </span>
+            <span class="welcome-description">
+                Please click our brands below for further information, reservations or to order online!
+            </span>
         </div>
-      </div>
-      <div class="buttons">
-        <button class>
+        <div class="mx-auto container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12 d-flex flex-column text-center">
+                    <a href="#">
+                        <img class="order-images" src="./assets/product-brand-main-1.webp">
+                    </a>
+                    <a class="order-now my-5 notextdeco mx-auto" href="#">Order Now</a>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12 d-flex flex-column text-center">
+                    <a href="#">
+                        <img class="order-images" src="./assets/product-brand-main-2.webp">
+                    </a>
+                    <a class="order-now my-5 notextdeco mx-auto" href="#">Order Now</a>
+                </div>
+                <div class="col-12 col-lg-4 col-md-6 col-sm-12 d-flex flex-column text-center">
+                    <a href="#">
+                        <img class="order-images" src="./assets/product-brand-main-3.webp">
+                    </a>
+                    <a class="order-now my-5 notextdeco mx-auto" href="#">Reserve a table</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- welcome section ended -->
+    <!-- welcome section ended -->
 
-        </button>
-      </div>
-    </nav>
-  <!-- navbar ended -->
-  <!-- navbar ended -->
 
-<div class="container-fluid">
-  <div class="banner">
-    <img src="./assets/banner.webp " alt="" width="100%">
-  </div>
-</div>
+    <!-- first franchise section started -->
+    <!-- first franchise section started -->
+    <div class="d-flex flex-column position-relative" id="first-franchise-outside">
+        <img id="large-s" src="./assets/large s.webp">
+        <div class="first-franchise-main-text mx-auto">
+            <span class="franchise-text">
+                Salt'n Pepper
+                <br>
+                <span class="franchise-text2">
+                    Restaurant Franchises
+                </span>
+            </span>
+            <span class="welcome-description">
+                Each of our franchises are individually managed. For further details, kindly contact them directly.
+            </span>
+        </div>
+        <div class="mx-auto" id="first-franchise-main">
+            <div class="first-franchise-main-first">
+                <div class="first-franchise-main-side">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="first-franchise-main-side-text-one">ISLAMABAD</span>
+                        <span class="first-franchise-main-side-text-two">
+                            <span class="first-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Restaurant
+                        </span>
+                        <p class="first-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad </p>
+                        <p class="first-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: 051-2604904-6</a>
+                        </p>
+                    </div>
+                    <div>
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <img id="first-franchise-img-one" src="./assets/franchise-main 1.webp">
+            </div>
+            <div id="first-franchise-main-second">
+                <img id="first-franchise-img-two" src="./assets/franchise-main 2.webp">
+                <div class="first-franchise-main-side">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="first-franchise-main-side-text-one">FAISALABAD</span>
+                        <span class="first-franchise-main-side-text-two">
+                            <span class="first-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Restaurant
+                        </span>
+                        <p class="first-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            4-Kohinoor City, Faisalabad </p>
+                        <p class="first-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: 041-8711404</a>
+                        </p>
+                    </div>
+                    <div>
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="first-franchise-main-first">
+                <div class="first-franchise-main-side">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="first-franchise-main-side-text-one">BAHAWALPUR</span>
+                        <span class="first-franchise-main-side-text-two">
+                            <span class="first-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Restaurant
+                        </span>
+                        <p class="first-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            D.C Chowk, opposite Commissioner House,
+                            <br> Bahawalpur
+                        </p>
+                        <p class="first-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: 062-2740271-2</a>
+                        </p>
+                    </div>
+                    <div>
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <img id="first-franchise-img-three" src="./assets/franchise-main 3.webp">
+            </div>
+        </div>
+    </div>
+    <!-- first franchise section ended -->
+    <!-- first franchise section ended -->
+
+
+    <!-- second franchise section started -->
+    <!-- second franchise section started -->
+    <div id="second-franchise-outside">
+        <img id="large-p" src="./assets/large P.webp">
+        <img id="large-blur" src="./assets/large-blur.webp">
+        <div class="first-franchise-main-text">
+            <span class="franchise-text">
+                Salt'n Pepper
+                <br>
+                <span class="franchise-text2">
+                    Restaurant Franchises
+                </span>
+            </span>
+        </div>
+        <div id="second-franchise-main">
+            <div id="second-franchise-main-first">
+                <div class="second-franchise-main-first-a">
+                    <img class="second-franchise-one" src="./assets/second-franchise-main-first-a.webp">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="second-franchise-main-side-text-one">PACKAGES MALL</span>
+                        <span class="second-franchise-main-side-text-two">
+                            <span class="second-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Express
+                        </span>
+                        <p class="second-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            First Floor Packages Mall
+                        </p>
+                        <p class="second-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: 0333-0310534</a>
+                        </p>
+                    </div>
+                    <div class="mt-4">
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="second-franchise-main-first-a">
+                    <img class="second-franchise-one" src="./assets/second-franchise-main-first-b.webp">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="second-franchise-main-side-text-one">EMPORIUM MALL</span>
+                        <span class="second-franchise-main-side-text-two">
+                            <span class="second-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Express
+                        </span>
+                        <p class="second-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            2nd Floor, Food Court Emporium Mall
+                        </p>
+                        <p class="second-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: 0311-1100947</a>
+                        </p>
+                    </div>
+                    <div class="mt-4">
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="second-franchise-main-first-a">
+                    <img class="second-franchise-one" src="./assets/second-franchise-main-first-c.webp">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="second-franchise-main-side-text-one">GUJRANWALA</span>
+                        <span class="second-franchise-main-side-text-two">
+                            <span class="second-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Express
+                        </span>
+                        <p class="second-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            Sixteenth Avenue Mall
+                        </p>
+                        <p class="second-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: 0300 6024000</a>
+                        </p>
+                    </div>
+                    <div class="mt-4">
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="second-franchise-main-first-a">
+                    <img class="second-franchise-one" src="./assets/second-franchise-main-first-d.webp">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="second-franchise-main-side-text-one">SARGODHA</span>
+                        <span class="second-franchise-main-side-text-two">
+                            <span class="second-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Express
+                        </span>
+                        <p class="second-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            Opposite Sargodha Arts Council Babar Road
+                        </p>
+                        <p class="second-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: (048) 3725500</a>
+                        </p>
+                    </div>
+                    <div class="mt-4">
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="second-franchise-main-first-a">
+                    <img class="second-franchise-one" src="./assets/second-franchise-main-first-e.webp">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="second-franchise-main-side-text-one">JHELUM</span>
+                        <span class="second-franchise-main-side-text-two">
+                            <span class="second-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Express
+                        </span>
+                        <p class="second-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            Opposite Dancing Fountain Gallery 2 Citi Housing
+                        </p>
+                        <p class="second-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: 0307 7675555</a>
+                        </p>
+                    </div>
+                    <div class="mt-4">
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="second-franchise-main-first-a">
+                    <img class="second-franchise-one" src="./assets/second-franchise-main-first-f.webp">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="second-franchise-main-side-text-one">FAISAL TOWN</span>
+                        <span class="second-franchise-main-side-text-two">
+                            <span class="second-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Express
+                        </span>
+                        <p class="second-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore
+                        </p>
+                        <p class="second-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: 042-111-100-678</a>
+                        </p>
+                    </div>
+                    <div class="mt-4">
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="second-franchise-main-first-a">
+                    <img class="second-franchise-one" src="./assets/second-franchise-main-first-g.webp">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="second-franchise-main-side-text-one">D H A</span>
+                        <span class="second-franchise-main-side-text-two">
+                            <span class="second-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Express
+                        </span>
+                        <p class="second-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            93-Y Phase III, DHA,Lahore
+                        </p>
+                        <p class="second-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: 042-111-100-678</a>
+                        </p>
+                    </div>
+                    <div class="mt-4">
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="second-franchise-main-first-a">
+                    <img class="second-franchise-one" src="./assets/second-franchise-main-first-h.webp">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="second-franchise-main-side-text-one">BAHRIA TOWN</span>
+                        <span class="second-franchise-main-side-text-two">
+                            <span class="second-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Express
+                        </span>
+                        <p class="second-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            Arwa Heights Building 19 Nishtar Block, Sector E,
+                        </p>
+                        <p class="second-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: 042-111-100-678</a>
+                        </p>
+                    </div>
+                    <div class="mt-4">
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="second-franchise-main-first-a">
+                    <img class="second-franchise-one" src="./assets/second-franchise-main-first-i.webp">
+                    <div class="d-flex flex-column gap-3">
+                        <span class="second-franchise-main-side-text-one">GUJAR KHAN</span>
+                        <span class="second-franchise-main-side-text-two">
+                            <span class="second-franchise-main-side-text-two-a">
+                                Salt'n Pepper
+                            </span>
+                            Express
+                        </span>
+                        <p class="second-franchise-main-side-text-three"> <i class="fa fa-map-marker-alt"
+                                aria-hidden="true"></i>
+                            New Metro City Gujar Khan
+                        </p>
+                        <p class="second-franchise-main-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                                <i class="fa fa-phone" aria-hidden="true"></i> Ph: 032-111-14-962</a>
+                        </p>
+                    </div>
+                    <div class="mt-4">
+                        <a class="first-franchise-first-button notextdeco" href="#">Order Online
+                            <i class="secondbutton-arrow fa fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- second franchise section ended -->
+    <!-- second franchise section ended -->
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+
+
+
+    <!-- promotion section started -->
+    <!-- promotion section started -->
+    <div id="promotion-section">
+        <div id="promotion-section-head">
+            <div class="first-franchise-main-text">
+                <span class="franchise-text">
+                    Salt'n Pepper
+                    <br>
+                    <span class="franchise-text2">
+                        Restaurant Franchises
+                    </span>
+                </span>
+            </div>
+        </div>
+        <div id="promotion-section-main">
+            <img id="promotion-section-img" src="./assets/promotion-section-image.webp">
+            <div id="promotion-section-side">
+                <div id="promotion-section-side-main">
+                    <span id="promotion-section-side-text-one">GUJRANWALA</span>
+                    <span id="promotion-section-side-text-two">
+                        <span id="promotion-section-side-text-two-a">
+                            Salt'n Pepper
+                        </span>
+                        Village
+                    </span>
+                    <p id="promotion-section-side-text-three"> <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
+                        Adjacent to Rida Marquees /DHA Main Gate, GT Road Gujranwala Cantt
+                    </p>
+                    <p id="promotion-section-side-text-four"><a class="notextdeco" href="tel:051-2604904-6">
+                            <i class="fa fa-phone" aria-hidden="true"></i> Ph: 055-3884500 l ,055-3880400</a>
+                    </p>
+                </div>
+                <div>
+                    <a id="promotion-section-first-button" class="notextdeco" href="#">Get Directions
+                        <i id="promotion-section-first-button-arrow" class="fa fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- promotion section ended -->
+    <!-- promotion section ended -->
+
+
+
+
+    <!-- franchise section started -->
+    <!-- franchise section started -->
+    <div class="mx-auto" id="franchise-express-section">
+        <div id="franchise-express-section-main">
+            <div id="franchise-express-head">
+                <div class="first-express-main-text">
+                    <span class="franchise-text">
+                        Salt'n Pepper
+                        <br>
+                        <span class="franchise-text2">
+                            Express Franchises
+                        </span>
+                        <span class="franchise-text3">
+                            (opening soon)
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div id="franchise-express-section-main-in">
+                <div class="franchise-express-one card bg-white">
+                    <img class="card-location-img" src="./assets/card-location-img.webp">
+                    <div class="card-inside">
+                        <span class="franchise-express-card-text-one">
+                            OPENING SOON
+                        </span>
+                        <span class="franchise-express-card-text-two">
+                            Salt'n Pepper
+                            <span class="franchise-express-card-text-three">
+                                Express
+                            </span>
+                        </span>
+                        <p class="franchise-express-card-text-four">Al-Jalil Garden</p>
+                        <p class="franchise-express-card-text-five">Sadhoke</p>
+                    </div>
+                </div>
+                <div class="franchise-express-one card bg-white">
+                    <img class="card-location-img" src="./assets/card-location-img.webp">
+                    <div class="card-inside">
+                        <span class="franchise-express-card-text-one">
+                            OPENING SOON
+                        </span>
+                        <span class="franchise-express-card-text-two">
+                            Salt'n Pepper
+                            <span class="franchise-express-card-text-three">
+                                Express
+                            </span>
+                        </span>
+                        <p class="franchise-express-card-text-four">Al-Jalil Garden</p>
+                        <p class="franchise-express-card-text-five">Sheikhupura</p>
+                    </div>
+                </div>
+                <div class="franchise-express-one card bg-white">
+                    <img class="card-location-img" src="./assets/card-location-img.webp">
+                    <div class="card-inside">
+                        <span class="franchise-express-card-text-one">
+                            OPENING SOON
+                        </span>
+                        <span class="franchise-express-card-text-two">
+                            Salt'n Pepper
+                            <span class="franchise-express-card-text-three">
+                                Express
+                            </span>
+                        </span>
+                        <p class="franchise-express-card-text-four">Blue World City</p>
+                        <p class="franchise-express-card-text-five">Rawalpindi</p>
+                    </div>
+                </div>
+                <div class="franchise-express-one card bg-white">
+                    <img class="card-location-img" src="./assets/card-location-img.webp">
+                    <div class="card-inside">
+                        <span class="franchise-express-card-text-one">
+                            OPENING SOON
+                        </span>
+                        <span class="franchise-express-card-text-two">
+                            Salt'n Pepper
+                            <span class="franchise-express-card-text-three">
+                                Express
+                            </span>
+                        </span>
+                        <p class="franchise-express-card-text-four">Gujrat</p>
+                    </div>
+                </div>
+                <div class="franchise-express-one card bg-white">
+                    <img class="card-location-img" src="./assets/card-location-img.webp">
+                    <div class="card-inside">
+                        <span class="franchise-express-card-text-one">
+                            OPENING SOON
+                        </span>
+                        <span class="franchise-express-card-text-two">
+                            Salt'n Pepper
+                            <span class="franchise-express-card-text-three">
+                                Express
+                            </span>
+                        </span>
+                        <p class="franchise-express-card-text-four">Sahiwal</p>
+                    </div>
+                </div>
+                <div class="franchise-express-one card bg-white">
+                    <img class="card-location-img" src="./assets/card-location-img.webp">
+                    <div class="card-inside">
+                        <span class="franchise-express-card-text-one">
+                            OPENING SOON
+                        </span>
+                        <span class="franchise-express-card-text-two">
+                            Salt'n Pepper
+                            <span class="franchise-express-card-text-three">
+                                Express
+                            </span>
+                        </span>
+                        <p class="franchise-express-card-text-four">City Housing , Gujranwala</p>
+                        <!-- <p class="franchise-express-card-text-five">Gujranwala</p> -->
+                    </div>
+                </div>
+                <div class="franchise-express-one card bg-white">
+                    <img class="card-location-img" src="./assets/card-location-img.webp">
+                    <div class="card-inside">
+                        <span class="franchise-express-card-text-one">
+                            OPENING SOON
+                        </span>
+                        <span class="franchise-express-card-text-two">
+                            Salt'n Pepper
+                            <span class="franchise-express-card-text-three">
+                                Express
+                            </span>
+                        </span>
+                        <p class="franchise-express-card-text-four">City Housing</p>
+                        <p class="franchise-express-card-text-five">Sialkot</p>
+                    </div>
+                </div>
+                <div class="franchise-express-one card bg-white">
+                    <img class="card-location-img" src="./assets/card-location-img.webp">
+                    <div class="card-inside">
+                        <span class="franchise-express-card-text-one">
+                            OPENING SOON
+                        </span>
+                        <span class="franchise-express-card-text-two">
+                            Salt'n Pepper
+                            <span class="franchise-express-card-text-three">
+                                Express
+                            </span>
+                        </span>
+                        <p class="franchise-express-card-text-four">Fortress Stadium</p>
+                        <p class="franchise-express-card-text-five">Lahore
+                        </p>
+                    </div>
+                </div>
+                <div class="franchise-express-one card bg-white">
+                    <img class="card-location-img" src="./assets/card-location-img.webp">
+                    <div class="card-inside">
+                        <span class="franchise-express-card-text-one">
+                            OPENING SOON
+                        </span>
+                        <span class="franchise-express-card-text-two">
+                            Salt'n Pepper
+                            <span class="franchise-express-card-text-three">
+                                Express
+                            </span>
+                        </span>
+                        <p class="franchise-express-card-text-four">Al-Jalil Garden</p>
+                        <p class="franchise-express-card-text-five">Sharqpur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- franchise section ended -->
+    <!-- franchise section ended -->
+
+
+
+
+    <!-- insta section started -->
+    <!-- insta section started -->
+    <div class="container-fluid" id="insta-section">
+        <div id="insta-section-main">
+            <div id="insta-section-main-head">
+                <h3 id="insta-section-text-one">Social Feed</h3>
+            </div>
+            <div class="row gap-4 justify-content-between" id="insta-section-main-body">
+                <div class="col">
+                    <img id="insta-img-1" class="insta-imgs" src="./assets/insta-section-1.webp">
+                </div>
+                <div class="col">
+                    <img id="insta-img-2" class="insta-imgs" src="./assets/insta-section-2.webp">
+                </div>
+                <div class="col">
+                    <img id="insta-img-3" class="insta-imgs" src="./assets/insta-section-3.webp">
+                </div>
+                <div class="col">
+                    <img id="insta-img-4" class="insta-imgs" src="./assets/insta-section-4.webp">
+                </div>
+                <div class="col">
+                    <img id="insta-img-5" class="insta-imgs" src="./assets/insta-section-5.webp">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- insta section ended -->
+    <!-- insta section ended -->
+
+    <div id="page-bottom">
+        <img id="large-s-black" src="./assets/Large S black.webp">
+        <div class="footer">
+            <div id="logo-side">
+                <a href="../index.html"><img id="logo-footer" src="./assets/logo.webp"></a>
+                <p id="para-footer">The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding
+                    service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate
+                    dinning destinations in Lahore. From family occasions to business dinner and moments of the heart,
+                    this place is where unforgettable memories are made.</p>
+                <div class="something">
+                    <a class="site-links-top footer-links1 pr-5 notextdeco" href="#">Terms & conditions</a>
+                    <a class="site-links-top footer-links1 notextdeco" href="#">Privacy policy</a>
+                </div>
+            </div>
+            <div class="site-links">
+                <p class="site-links-top">
+                    Site Links
+                </p>
+                <ul class="noliststyle d-flex-footer footerlinks1 un-ordered-site-links">
+                    <li class="footerlinks1"><a class="notextdeco footerlinks1" href="./index.html">Home</a></li>
+                    <li class="footerlinks1"><a class="notextdeco footerlinks1" href="./about/about-us.html">About
+                            Us</a></li>
+                    <li class="footerlinks1"><a class="notextdeco footerlinks1"
+                            href="./publications/publications.html">Publications</a></li>
+                    <li class="footerlinks1"><a class="notextdeco footerlinks1"
+                            href="./franchise/get-a-franchise.html">Get a Franchise</a></li>
+                    <li class="footerlinks1"><a class="notextdeco footerlinks1"
+                            href="./feedback/feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="site-links-2">
+                <p class="site-links-top">
+                    Contact Us
+                </p>
+                <ul class="noliststyle d-flex-footer footerlinks1 un-ordered-site-links">
+                    <li class="footerlinks1"><a class="notextdeco footerlinks1" href="#">+92 42 358 509 31 (Head
+                            Office)</a></li>
+                    <li class="footerlinks1"><a class="notextdeco footerlinks1" href="#">+92 42 358 509 30 (Head
+                            Office)</a></li>
+                    <li class="footerlinks1"><a class="notextdeco footerlinks1" href="#">+92 42 111 100 678
+                            (Delivery)</a></li>
+                    <li class="footerlinks1"><a class="notextdeco footerlinks1" href="#">+92 03 111 444 610
+                            (Delivery)</a></li>
+                    <li class="footerlinks1"><a class="notextdeco footerlinks1" href="#">snpfood@brain.net.pk</a></li>
+                    <li class="footerlinks1"><a class="notextdeco footerlinks1" href="#">23-Usman Block, New GardenTown,
+                            Lahore, Pakistan</a></li>
+                </ul>
+            </div>
+            <div class="follow-us">
+                <p class="site-links-top">
+                    Follow Us
+                </p>
+                <div class="footer-social-media">
+                    <a href="#" class="footer-social-media-links" target="blank"><i
+                            class="fab footer-social-media-links-i fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="#" class="footer-social-media-links" target="blank"><i
+                            class="fab footer-social-media-links-i fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="footer-social-media-links" target="blank"><i
+                            class="fab footer-social-media-links-i fa-twitter" aria-hidden="true"></i></a>
+                </div>
+                <div class="footer-images">
+                    <a href="#">
+                        <img class="block" src="./assets/app-store.webp" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="block" src="./assets/play-store.webp" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-section">
+            <span class="copyright-section-left-text-one">
+                &copy;
+                <span class="copyright-section-left-text-one">All rights reserved.</span>
+            </span>
+            <span class="copyright-section-left-text-one">
+                Made by
+                <span class="copyright-section-left-text-one">Wajid Usto</span>
+            </span>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e686848577.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
