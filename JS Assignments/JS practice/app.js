@@ -26,14 +26,33 @@
 
 
 
-function percentage(marks1 , marks2 , marks3) {
+function percentage(marks1 , marks2 , marks3, marks4) {
   var totalmarks = 300
-  var obtainedmarks = marks1 + marks2 + marks3
+  var obtainedmarks = marks1 + marks2 + marks3 + marks4
   return(totalmarksmarks / obtainedmarks * 100)
 }
-var perc = (33 , 50 , 10)
+var perc = (33 , 50 , 10 ,60)
 document.write("your percentage is " + perc + " %"  + " keep focus on your study ! ")
 console.log(perc);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
