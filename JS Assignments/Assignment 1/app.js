@@ -10,6 +10,8 @@ if (age >= 18) {
   "You cannot Drive"
 }
 
+console.log("ismail")
+
 
 
 
