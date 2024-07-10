@@ -14,12 +14,11 @@ header{
     width: 100%;
 }
 .navbar{
-    background-image: url(./Assets/background\ img1.png);
+    background-image: url(./Assets/output-onlinepngtools\ \(1\).png);
     background-position: top;
     background-repeat: no-repeat;
-    background-size: 67rem;
-    /* opacity: 0.5; */
-    height: 15rem;
+    background-size: 81rem;
+    height: 14.5rem;
 }
 .logo img{
     width: 20rem;
@@ -58,5 +57,10 @@ header{
     top: -17px;
 }
 .bottom-buttons button{
-    
+    padding: 10px 10px;
+    color: #9AC747;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid #c3c3c3;
+    cursor: pointer;
 }
