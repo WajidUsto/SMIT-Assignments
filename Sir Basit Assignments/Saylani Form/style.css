@@ -1,0 +1,23 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.navbar{
+    background-image: url(./Assets/background.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 67rem;
+    opacity: 0.5;
+    height: 15rem;
+}
+.logo img{
+    width: 20rem;
+}
