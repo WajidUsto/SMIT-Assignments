@@ -35,3 +35,28 @@ header{
     width: 32px;
     margin: 4px;
 }
+.nav-button img{
+    width: 20px;
+}
+.nav-button{
+    position: absolute;
+    left: 60rem;
+    bottom: 7.4rem;
+}
+.nav-button button{
+    padding: 3px 13px;
+    border-radius: 20px;
+    border: 1px solid #0D84D0;
+    font-size: 16px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.nav-categories{
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    top: -17px;
+}
+.bottom-buttons button{
+    
+}
