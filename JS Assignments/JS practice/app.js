@@ -98,16 +98,47 @@
 
 // Conditional Statement
 
-let age = prompt("Enter Your Age!")
+let age = prompt("Enter Your Age!");
 
-if (age >= 18) {
+if (age <18) {
+    console.log("You are too young!");
+} else if(age >= 18){
     console.log("You Can Drive!");
-} 
-else{
+}
+else (age >=60)
+{
     console.log("You Can't Drive!");
 }
 
 
+// let num = prompt("Enter the Number to Check Even Or Odd number!");
+
+// if (num%2 === 0) {
+//     console.log(num , "Is Even!");
+// }
+// else{
+//     console.log( num , "Is Odd!");
+// }
+
+
+// percentage calculator
+
+
+// let EnglishMarks = +prompt("Enter Your EnglishMarks");
+// let UrduMarks = +prompt("Enter Your UrduMarks");
+// let ComputerhMarks = +prompt("Enter Your ComputerhMarks");
+// let ScienceMarks = +prompt("Enter Your ScienceMarks");
+// let IslamiatMarks = +prompt("Enter Your IslamiatMarks");
+// let MathsMarks = +prompt("Enter Your MathsMarks");
+// let ChemistryMarks = +prompt("Enter Your ChemistryMarks");
+
+// let totalmarks = 700;
+// let obtainedmarks = EnglishMarks + UrduMarks + ComputerhMarks + ScienceMarks + MathsMarks + IslamiatMarks + ChemistryMarks;
+
+// let Percentage = (obtainedmarks/totalmarks)*100;
+// console.log("Your TotalMarks is" , totalmarks);
+// console.log("Your ObtainedMarks is" , obtainedmarks);
+// console.log("Your Percentage is" , Percentage , "%");
 
 
 
