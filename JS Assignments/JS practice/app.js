@@ -38,16 +38,81 @@
 
 
 
-let num1 = 10;
-let num2 = 5;
+// let num1 = 2;
+// let num2 = 5;
 
-console.log(num1 + num2);
-console.log(num1 >= num2);
-console.log(num1 <= num2);
-console.log(num1 == num2);
-console.log(num1 - num2);
-console.log(num1 * num2);
-console.log(num1 / num2);
+// // console.log(num1 + num2);
+// // console.log(num1 >= num2);
+// // console.log(num1 <= num2);
+// // console.log(num1 == num2);
+// // console.log(num1 - num2);
+// // console.log(num1 * num2);
+// // console.log(num1 / num2);
+// // console.log(num1 % num2);
+// console.log(num1 ** num2);
+
+
+
+
+
+// let EnglishMarks = +prompt("Enter Your EnglishMarks!");
+// let UrduMarks = +prompt("Enter Your UrduMarks!");
+// let PhysicshMarks = +prompt("Enter Your PhysicshMarks!");
+// let MathsMarks = +prompt("Enter Your MathsMarks!");
+
+// let totalmarks = 400;
+// const obtainedmarks = EnglishMarks + UrduMarks+ PhysicshMarks + MathsMarks;
+// let percentage = (obtainedmarks/totalmarks)*100;
+
+// console.log("Your Total Marks Is" , " " , totalmarks);
+// console.log("Your Obtained Is" , " " , obtainedmarks);
+// console.log("Your Percentage Is" , " " , percentage,"%");
+
+
+
+// let EnglishMarks = +prompt("Enter Your English Marks!")
+// let UrduMarks = +prompt("Enter Your Urdu Marks!")
+// let ScienceMarks = +prompt("Enter Your Science Marks!")
+// let ComputerMarks = +prompt("Enter Your Computer Marks!")
+
+// var totalmarks = 400;
+// let obtainedmarks = EnglishMarks + UrduMarks + ScienceMarks + ComputerMarks;
+// let percentage = obtainedmarks/totalmarks*100;
+
+// console.log("Ypur TotalMarks is" , totalmarks);
+// console.log("Your ObtainedMarks is" , obtainedmarks);
+// console.log("Your Percentage is" , percentage , "%");
+
+
+
+
+// Increment & Decrement Statement
+
+// let a = 5;
+// let b = 5;
+
+// console.log("a = " , --a);
+// console.log("b = " , b++);
+// console.log(++a + ++b);
+
+
+// Conditional Statement
+
+let age = prompt("Enter Your Age!")
+
+if (age >= 18) {
+    console.log("You Can Drive!");
+} 
+else{
+    console.log("You Can't Drive!");
+}
+
+
+
+
+
+
+
 
 
 
