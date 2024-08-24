@@ -172,6 +172,27 @@
 
 
 
+let num = +prompt("Enter Number!");
+
+if (num %5 ===0) {
+    console.log(num , "Is devided by 5");
+} else {
+    console.log(num , "Is Not devided by 5");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
