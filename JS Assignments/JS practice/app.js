@@ -143,26 +143,31 @@
 
 // Marks To Grade Converter
 
-let num = +prompt("Enter Your Percentage! To Know your Result");
+// let num = +prompt("Enter Your Percentage! To Know your Result");
 
-if (num >=90) {
-    console.log("A+ Grade!");
-} else if(num >=80){
-    console.log("A Grade!");
-} else if(num >=70){
-    console.log("B Grade!");
-} else if(num >=60){
-    console.log("C Grade!");
-} else if(num >=50){
-    console.log("D Grade!");
-} else if(num >=40){
-    console.log("E Grade!");
-}else if(num >=33){
-    console.log("You are Just Passed Keep Focus On your studies!");
-}else {
-    console.log("You Are Faild In Exam Better luck next time!");
-}
+// if (num >=90) {
+//     console.log("A+ Grade!");
+// } else if(num >=80){
+//     console.log("A Grade!");
+// } else if(num >=70){
+//     console.log("B Grade!");
+// } else if(num >=60){
+//     console.log("C Grade!");
+// } else if(num >=50){
+//     console.log("D Grade!");
+// } else if(num >=40){
+//     console.log("E Grade!");
+// }else if(num >=33){
+//     console.log("You are Just Passed Keep Focus On your studies!");
+// }else {
+//     console.log("You Are Faild In Exam Better luck next time!");
+// }
 
+// let age = +prompt("Enter Your Age!");
+
+// let Result = age > 18 ? "you are adult" : "You are Child";
+
+// console.log(Result);
 
 
 
