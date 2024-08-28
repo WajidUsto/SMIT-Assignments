@@ -145,20 +145,20 @@
 
 // let num = +prompt("Enter Your Percentage! To Know your Result");
 
-// if (num >=90) {
+// if(num >=90 && num <=100){
 //     console.log("A+ Grade!");
-// } else if(num >=80){
+// } else if(num >=80 && num <=89){
 //     console.log("A Grade!");
-// } else if(num >=70){
+// } else if(num >= 70 && num <=79){
 //     console.log("B Grade!");
-// } else if(num >=60){
+// } else if(num >=60 && num <=69){
 //     console.log("C Grade!");
-// } else if(num >=50){
+// } else if(num >=50 && num <=59){
 //     console.log("D Grade!");
-// } else if(num >=40){
+// }else if(num >=40 && num <=49){
 //     console.log("E Grade!");
-// }else if(num >=33){
-//     console.log("You are Just Passed Keep Focus On your studies!");
+// }else if(num >=33 && num <=39){
+//     console.log("F");
 // }else {
 //     console.log("You Are Faild In Exam Better luck next time!");
 // }
@@ -172,23 +172,42 @@
 
 
 
-let num = +prompt("Enter Number!");
+// let num = +prompt("Enter Number!");
 
-if (num %5 ===0) {
-    console.log(num , "Is devided by 5");
-} else {
-    console.log(num , "Is Not devided by 5");
-}
-
-
+// if (num %5 ===0) {
+//     console.log(num , "Is divided by 5");
+// } else {
+//     console.log(num , "Is Not divided by 5");
+// }
 
 
 
 
+// For Loops 
+
+
+// for (let num = 1; num <=2; num++){
+//     console.log("Hello Wajid Ali");
+    
+// }
+
+
+// for(i = 0; i <= 20; i++){
+//     console.log( "i ="+  + i);
+// }
 
 
 
+// Functions 
 
+// function Admission(username , age) {
+//     if (age >= 18) {
+//         console.log("Welcome to Our GYM  " + username);
+//     }else {
+//         console.log("Ustad aapka admission nhi hoga q k aapki age h" + age);
+//     }
+// }
+// Admission("Wajid Usto" ,  18);
 
 
 
