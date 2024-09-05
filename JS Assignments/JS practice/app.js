@@ -213,6 +213,60 @@
 
 
 
+// function sum(num1 , num2) {
+//     return num1 + num2
+// }
+// let total = sum(50 , 50);
+// console.log(total);
+
+
+
+
+// let num1 = 50;
+// let num2 = 50;
+
+// function Multiply(num1 , num2) {
+//     num1 + num2
+// }
+// Multiply();
+
+
+
+
+// function greetUser(username , age , email) {
+//     console.log("Your username is " + username);
+//     console.log("Your age is " + age);
+//     console.log("Your email is " + email);
+// }
+// greetUser("Wajid " , 18 , "wajidusto@gmail.com");
+
+
+
+
+// let input1 = document.querySelector("#input1");
+// let input2 = document.querySelector("#input2");
+// let head = document.querySelector("#h1");
+
+
+// function userValue() {
+//     let total = +input1.value + +input2.value;
+//     h1.inner.html = head;
+//     input1.value = "";
+//     input2.value = "";
+// }
+// userValue();
+
+// var input1 = document.querySelector("#num1");
+// var input2 = document.querySelector("#num2");
+// var h1 = document.querySelector("#value");
+
+// function sumValue() {
+//     var total = +num1.value + +num2.value
+//     h1.innerHTML = total
+
+//     num1.value = ""
+//     num2.value = ""
+// }
 
 
 
@@ -222,7 +276,127 @@
 
 
 
+// let input1 = document.querySelector("#num1");
+// let input2 = document.querySelector("#num2");
+// let totalvalue = document.querySelector("#value");
 
+
+// function sumValue() {
+//     let total = +num1.value + +num2.value
+//     totalvalue.innerHTML = total
+    
+//     num1.value = ""
+//     num2.value = ""
+// }
+
+
+
+// let inpt1 = document.querySelector("#sub1")
+// let inpt2 = document.querySelector("#sub2")
+// let inpt3 = document.querySelector("#sub3")
+// let inpt4 = document.querySelector("#sub4")
+// let totalvalue = document.querySelector("#value")
+
+// function calpercentage() {
+//     let total = 400
+//     let obtainedmarks = sub1.value + sub2.value + sub3.value + sub4.value
+//     let percentage = totalvalue.innerHTML = (obtainedmarks / total) * 100
+//     return percentage
+// }
+
+
+
+
+
+
+
+// function greetUser(username , age) {
+//     return 
+// }
+
+
+
+// let head = document.querySelector("#head")
+// head.innerHTML = 
+// function username(head , age) {
+//     return head + age
+// }
+// username("wajid " , 20);
+// console.log(username("Usman " , 45));
+
+
+
+
+
+
+
+// for (let index = 25; index < 51; index++) {
+//     console.log(index);
+// }
+
+
+
+
+
+
+// function sum(a , b) {
+//     let Result = document.querySelector("#total")
+//     let Result1 = document.querySelector("#total1")
+//     var Result2 = document.querySelector("#total2")
+//     Result.innerHTML = "Your Result Sum is " + total
+//     Result1.innerHTML = "Your Result 1 Sum is " + total1
+//     Result2.innerHTML = "Your Result 2 Sum is " + total2
+
+//     return a + b
+// }
+
+// total = sum(5 , 5)
+// total1 = sum(10 , 20)
+// total2 = sum(2 , 2)
+
+// console.log("Your Result Sum is " + total);
+// console.log("Your Result1 Sum is " + total1);
+// console.log("Your Result2 Sum is " + total2);
+
+
+
+
+// let a = 5
+// let b = 5
+// let result = document.querySelector("#total")
+// total.innerHTML = "Your Number is " + total
+// const fun1 = ()=>{
+//     return a + b
+// }
+// console.log(fun1());
+
+
+var a = document.querySelector("#total")
+let value = 0
+a.addEventListener("click" , function clickme() {
+    if (value == 0) {
+        a.innerHTML = "Hey wajid"
+        value = 1
+    } else {
+        a.innerHTML = "Buy Wajid"
+        value = 0
+    }
+})
+
+clickme()
+
+
+
+
+
+
+
+
+// var a = document.querySelector("#total")
+// function btn() {
+//     return a.innerHTML = "hello wajid"
+// }
+// console.log(btn());
 
 
 
