@@ -387,22 +387,23 @@
 
 
 
+// function hello() {
+//     let a = 5 
+//     let b = 5
+//     return a + b
+// }
+// let result = hello()
+// console.log(result);
 
 
-
-
-
-
-
-function hello() {
-    let a = 5 
-    let b = 5
-    return a + b
+let input1 = document.querySelector("#input1")
+let input2 = document.querySelector("#input2")
+let total1 = document.querySelector("#total")
+function total() {
+    let value = +input1.value + +input2.value
+    total1.innerHTML = value
 }
-let result = hello()
-console.log(result);
-
-
+total();
 
 
 
