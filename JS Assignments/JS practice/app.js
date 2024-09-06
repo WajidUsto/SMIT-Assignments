@@ -425,17 +425,32 @@
 
 
 
+// let input1 = document.querySelector("#input1")
+// let input2 = document.querySelector("#input2")
+// let head = document.querySelector("#head")
+// let btn = document.querySelector("button")
+
+// btn.addEventListener ("click" , function value() {
+//     let userValue = +input1.value + +input2.value
+//     head.innerHTML = userValue
+    
+//     input1.value = ""
+//     input2.value = ""
+// })
+
 let input1 = document.querySelector("#input1")
 let input2 = document.querySelector("#input2")
-let head = document.querySelector("#head")
+let input3 = document.querySelector("#input3")
+let input4 = document.querySelector("#input4")
+let perc = document.querySelector("#percentage")
+let obtained = document.querySelector("#obtained")
 let btn = document.querySelector("button")
 
 btn.addEventListener ("click" , function value() {
-    let userValue = +input1.value + +input2.value
-    head.innerHTML = userValue
-    
-    input1.value = ""
-    input2.value = ""
+    let userValue = +input1.value + +input2.value + +input3.value + +input4.value
+    let showValue =  obtained.innerHTML = userValue
+    let percentage = showValue / 400 * 100
+    perc.innerHTML = percentage + "%"
 })
 
 
