@@ -197,7 +197,6 @@
 // }
 
 
-
 // Functions 
 
 // function Admission(username , age) {
@@ -396,14 +395,96 @@
 // console.log(result);
 
 
+// let input1 = document.querySelector("#input1")
+// let input2 = document.querySelector("#input2")
+// let total1 = document.querySelector("#total")
+// function total() {
+//     let value = +input1.value + +input2.value
+//     total1.innerHTML = value
+// }
+// total();
+
+
+
+
+// let fullname = document.querySelector("#input1")
+// let email = document.querySelector("#input2")
+// let total = document.querySelector("#input3")
+// let obtainedmarks = document.querySelector("#input4")
+// let totalmarks = document.querySelector("#total")
+// let input1result = document.querySelector("#input1result")
+
+
+// function report() {
+//     fullname.innerHTML = input1result.value
+// }
+// report()
+
+
+
+
+
+
 let input1 = document.querySelector("#input1")
 let input2 = document.querySelector("#input2")
-let total1 = document.querySelector("#total")
-function total() {
-    let value = +input1.value + +input2.value
-    total1.innerHTML = value
-}
-total();
+let head = document.querySelector("#head")
+let btn = document.querySelector("button")
+
+btn.addEventListener ("click" , function value() {
+    let userValue = +input1.value + +input2.value
+    head.innerHTML = userValue
+
+    input1.value = ""
+    input2.value = ""
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
