@@ -446,7 +446,12 @@ let obtained = document.querySelector("#obtained")
 let btn = document.querySelector("button")
 
 btn.addEventListener ("click" , function value() {
-    if (input1 >= 100 || input2 >= 100 || input3 >= 100 || input4 >= 100) {
+    let i1 = input1.value || 0;
+    let i2 = input2.value || 0;
+    let i3 = input3.value || 0;
+    let i4 = input4.value || 0;
+
+    if (i1 >= 100 || i2 >= 100 || i3 >= 100 || i4 >= 100) {
         alert("Enter Correct Number");
         console.log("if chal rhaa h");
     } else {
