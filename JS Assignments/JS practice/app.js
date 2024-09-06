@@ -433,11 +433,11 @@ let btn = document.querySelector("button")
 btn.addEventListener ("click" , function value() {
     let userValue = +input1.value + +input2.value
     head.innerHTML = userValue
-
+    
     input1.value = ""
     input2.value = ""
-    
 })
+
 
 
 
