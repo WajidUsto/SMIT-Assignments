@@ -437,7 +437,6 @@
 //     input1.value = ""
 //     input2.value = ""
 // })
-
 let input1 = document.querySelector("#input1")
 let input2 = document.querySelector("#input2")
 let input3 = document.querySelector("#input3")
@@ -447,10 +446,16 @@ let obtained = document.querySelector("#obtained")
 let btn = document.querySelector("button")
 
 btn.addEventListener ("click" , function value() {
+    if (input1 >= 100 || input2 >= 100 || input3 >= 100 || input4 >= 100) {
+        alert("Enter Correct Number");
+        console.log("if chal rhaa h");
+    } else {
+        console.log("else chal rhaa h");
     let userValue = +input1.value + +input2.value + +input3.value + +input4.value
     let showValue =  obtained.innerHTML = userValue
     let percentage = showValue / 400 * 100
     perc.innerHTML = percentage + "%"
+    }
 })
 
 
