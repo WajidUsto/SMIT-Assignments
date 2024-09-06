@@ -371,19 +371,63 @@
 // console.log(fun1());
 
 
-var a = document.querySelector("#total")
-let value = 0
-a.addEventListener("click" , function clickme() {
-    if (value == 0) {
-        a.innerHTML = "Hey wajid"
-        value = 1
-    } else {
-        a.innerHTML = "Buy Wajid"
-        value = 0
-    }
-})
+// var a = document.querySelector("#total")
+// let value = 0
+// a.addEventListener("click" , function clickme() {
+//     if (value == 0) {
+//         a.innerHTML = "Hey wajid"
+//         value = 1
+//     } else {
+//         a.innerHTML = "Buy Wajid"
+//         value = 0
+//     }
+// })
 
-clickme()
+// clickme()
+
+
+
+
+
+
+
+
+
+
+function hello() {
+    let a = 5 
+    let b = 5
+    return a + b
+}
+let result = hello()
+console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
