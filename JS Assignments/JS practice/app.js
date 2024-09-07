@@ -437,31 +437,71 @@
 //     input1.value = ""
 //     input2.value = ""
 // })
-let input1 = document.querySelector("#input1")
-let input2 = document.querySelector("#input2")
-let input3 = document.querySelector("#input3")
-let input4 = document.querySelector("#input4")
-let perc = document.querySelector("#percentage")
-let obtained = document.querySelector("#obtained")
+
+
+
+// pecentage calculator
+
+// let input1 = document.querySelector("#input1")
+// let input2 = document.querySelector("#input2")
+// let input3 = document.querySelector("#input3")
+// let input4 = document.querySelector("#input4")
+// let perc = document.querySelector("#percentage")
+// let obtained = document.querySelector("#obtained")
+// let btn = document.querySelector("button")
+
+// btn.addEventListener ("click" , function value() {
+//     let i1 = input1.value || 0;
+//     let i2 = input2.value || 0;
+//     let i3 = input3.value || 0;
+//     let i4 = input4.value || 0;
+
+//     if (i1 >= 100 || i2 >= 100 || i3 >= 100 || i4 >= 100) {
+//         alert("Enter Correct Number");
+//         console.log("if chal rhaa h");
+//     } else {
+//         console.log("else chal rhaa h");
+//     let userValue = +input1.value + +input2.value + +input3.value + +input4.value
+//     let showValue =  obtained.innerHTML = userValue
+//     let percentage = showValue / 400 * 100
+//     perc.innerHTML = percentage + "%"
+//     }
+// })
+
+
+
+
+
+
+
+let Name = document.querySelector("#input1")
+let email = document.querySelector("#input2")
+let userName = document.querySelector("#userName")
+let userEmail = document.querySelector("#userEmail")
 let btn = document.querySelector("button")
 
-btn.addEventListener ("click" , function value() {
-    let i1 = input1.value || 0;
-    let i2 = input2.value || 0;
-    let i3 = input3.value || 0;
-    let i4 = input4.value || 0;
+btn.addEventListener("click" , function value() {
+    userName.innerHTML =  "Your Name Is  " + Name.value
+    userEmail.innerHTML = "Your Email Is  " + email.value
 
-    if (i1 >= 100 || i2 >= 100 || i3 >= 100 || i4 >= 100) {
-        alert("Enter Correct Number");
-        console.log("if chal rhaa h");
-    } else {
-        console.log("else chal rhaa h");
-    let userValue = +input1.value + +input2.value + +input3.value + +input4.value
-    let showValue =  obtained.innerHTML = userValue
-    let percentage = showValue / 400 * 100
-    perc.innerHTML = percentage + "%"
-    }
+    userName.value = ""
+    userEmail.value = ""
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
