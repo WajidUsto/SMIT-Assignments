@@ -506,14 +506,30 @@ let cheMarks = document.querySelector("#marks3")
 let csMarks = document.querySelector("#marks4")
 let urduMarks = document.querySelector("#marks5")
 let mathsMarks = document.querySelector("#mark6")
-let islMarkss = document.querySelector("#marks7")
+let islMarks = document.querySelector("#marks7")
 
 let btn = document.querySelector("button")
 let showName = document.querySelector("#showName")
+let showeng = document.querySelector("#eng")
+let showphy = document.querySelector("#phy")
+let showche = document.querySelector("#che")
+let showcs = document.querySelector("#cs")
+let showurdu = document.querySelector("#urdu")
+let showmaths = document.querySelector("#maths")
+let showisl = document.querySelector("#isl")
 let obtained = document.querySelector("#obtained")
 let perc = document.querySelector("#percentage")
 
-
+btn.addEventListener("click" , function result() {
+    showName.innerHTML = usersName.value
+    showeng.innerHTML = marks1.value
+    showphy.innerHTML = marks2.value
+    showche.innerHTML = marks3.value
+    showcs.innerHTML = marks4.value
+    showurdu.innerHTML = marks5.value
+    showmaths.innerHTML = marks6.value
+    showisl.innerHTML = marks7.value
+})
 
 
 
