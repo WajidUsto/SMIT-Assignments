@@ -499,6 +499,48 @@
 
 
 
+let usersName = document.querySelector("#usersName")
+let engMarks = document.querySelector("#marks1")
+let phyMarks = document.querySelector("#marks2")
+let cheMarks = document.querySelector("#marks3")
+let csMarks = document.querySelector("#marks4")
+let urduMarks = document.querySelector("#marks5")
+let mathsMarks = document.querySelector("#mark6")
+let islMarkss = document.querySelector("#marks7")
+
+let btn = document.querySelector("button")
+let showName = document.querySelector("#showName")
+let obtained = document.querySelector("#obtained")
+let perc = document.querySelector("#percentage")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
