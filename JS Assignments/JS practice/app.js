@@ -517,18 +517,21 @@ let showcs = document.querySelector("#cs")
 let showurdu = document.querySelector("#urdu")
 let showmaths = document.querySelector("#maths")
 let showisl = document.querySelector("#isl")
+
 let obtained = document.querySelector("#obtained")
 let perc = document.querySelector("#percentage")
 
 btn.addEventListener("click" , function result() {
-    showName.innerHTML = usersName.value
-    showeng.innerHTML = marks1.value
-    showphy.innerHTML = marks2.value
-    showche.innerHTML = marks3.value
-    showcs.innerHTML = marks4.value
-    showurdu.innerHTML = marks5.value
-    showmaths.innerHTML = marks6.value
-    showisl.innerHTML = marks7.value
+    let usersValue = showName.innerHTML = "Your Name  " + usersName.value
+    showeng.innerHTML = "Your English Marks  " + marks1.value
+    showphy.innerHTML = "Your Physics Marks  " + marks2.value
+    showche.innerHTML = "Your Chemistry Marks  " + marks3.value
+    showcs.innerHTML = "Your CS Marks  " + marks4.value
+    showurdu.innerHTML = "Your Urdu Marks  " + marks5.value
+    showmaths.innerHTML = "Your Maths Marks  " + marks6.value
+    showisl.innerHTML = "Your Islamiat Marks  " + marks7.value
+
+
 })
 
 
