@@ -474,19 +474,19 @@
 
 
 
-let Name = document.querySelector("#input1")
-let email = document.querySelector("#input2")
-let userName = document.querySelector("#userName")
-let userEmail = document.querySelector("#userEmail")
-let btn = document.querySelector("button")
+// let Name = document.querySelector("#input1")
+// let email = document.querySelector("#input2")
+// let userName = document.querySelector("#userName")
+// let userEmail = document.querySelector("#userEmail")
+// let btn = document.querySelector("button")
 
-btn.addEventListener("click" , function value() {
-    userName.innerHTML =  "Your Name Is  " + Name.value
-    userEmail.innerHTML = "Your Email Is  " + email.value
+// btn.addEventListener("click" , function value() {
+//     userName.innerHTML =  "Your Name Is  " + Name.value
+//     userEmail.innerHTML = "Your Email Is  " + email.value
 
-    userName.value = ""
-    userEmail.value = ""
-})
+//     Name.value = ""
+//     email.value = ""
+// })
 
 
 
