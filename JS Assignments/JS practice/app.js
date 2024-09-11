@@ -622,6 +622,23 @@ btn2.addEventListener("click" , function sum() {
 })
 
 
+// Arrays
+
+//push
+//pop
+//unshift
+//shift
+//splice
+//slice
+//split
+//join
+//concat
+//sort
+//reverse
+//indexof
+
+
+
 
 
 
