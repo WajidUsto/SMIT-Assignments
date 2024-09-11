@@ -499,91 +499,127 @@
 
 
 
-let usersName = document.querySelector("#usersName")
-let engMarks = document.querySelector("#marks1")
-let phyMarks = document.querySelector("#marks2")
-let cheMarks = document.querySelector("#marks3")
-let csMarks = document.querySelector("#marks4")
-let urduMarks = document.querySelector("#marks5")
-let mathsMarks = document.querySelector("#mark6")
-let islMarks = document.querySelector("#marks7")
+// let usersName = document.querySelector("#usersName")
+// let engMarks = document.querySelector("#marks1")
+// let phyMarks = document.querySelector("#marks2")
+// let cheMarks = document.querySelector("#marks3")
+// let csMarks = document.querySelector("#marks4")
+// let urduMarks = document.querySelector("#marks5")
+// let mathsMarks = document.querySelector("#mark6")
+// let islMarks = document.querySelector("#marks7")
 
-let btn = document.querySelector("button")
-let showName = document.querySelector("#showName")
-let showeng = document.querySelector("#eng")
-let showphy = document.querySelector("#phy")
-let showche = document.querySelector("#che")
-let showcs = document.querySelector("#cs")
-let showurdu = document.querySelector("#urdu")
-let showmaths = document.querySelector("#maths")
-let showisl = document.querySelector("#isl")
+// let btn = document.querySelector("button")
+// let showName = document.querySelector("#showName")
+// let showeng = document.querySelector("#eng")
+// let showphy = document.querySelector("#phy")
+// let showche = document.querySelector("#che")
+// let showcs = document.querySelector("#cs")
+// let showurdu = document.querySelector("#urdu")
+// let showmaths = document.querySelector("#maths")
+// let showisl = document.querySelector("#isl")
 
-let obtained = document.querySelector("#obtained")
-let perc = document.querySelector("#percentage")
+// let obtained = document.querySelector("#obtained")
+// let perc = document.querySelector("#percentage")
 
-btn.addEventListener("click" , function result() {
-    let usersValue = showName.innerHTML = "Your Name  " + usersName.value
-    showeng.innerHTML = "Your English Marks  " + marks1.value
-    showphy.innerHTML = "Your Physics Marks  " + marks2.value
-    showche.innerHTML = "Your Chemistry Marks  " + marks3.value
-    showcs.innerHTML = "Your CS Marks  " + marks4.value
-    showurdu.innerHTML = "Your Urdu Marks  " + marks5.value
-    showmaths.innerHTML = "Your Maths Marks  " + marks6.value
-    showisl.innerHTML = "Your Islamiat Marks  " + marks7.value
+// btn.addEventListener("click" , function result() {
+//     let usersValue = showName.innerHTML = "Your Name  " + usersName.value
+//     showeng.innerHTML = "Your English Marks  " + marks1.value
+//     showphy.innerHTML = "Your Physics Marks  " + marks2.value
+//     showche.innerHTML = "Your Chemistry Marks  " + marks3.value
+//     showcs.innerHTML = "Your CS Marks  " + marks4.value
+//     showurdu.innerHTML = "Your Urdu Marks  " + marks5.value
+//     showmaths.innerHTML = "Your Maths Marks  " + marks6.value
+//     showisl.innerHTML = "Your Islamiat Marks  " + marks7.value
+// letb
+
+// })
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let userName = document.querySelector("#userName")
+// let showname = document.querySelector("#showname")
+// let btn = document.querySelector("button")
+
+// function name() {
+//     let name = userName.value = showname.inn
+// }
+
+
+
+
+
+
+
+
+// let usersname = document.querySelector("#userName")
+// let showname = document.querySelector("#showname")
+
+// btn.addEventListener("click" , function result() {
+//     showname.innerHTML = usersname.value
+//     usersname.value = ""
+// })
+
+
+
+
+
+
+
+
+let btn1 = document.querySelector("#btn1")
+let btn2 = document.querySelector("#btn2")
+let h1 = document.querySelector("#head")
+
+let counter = 0
+
+btn1.addEventListener("click" , function sum() {
+    counter++
+    h1.innerHTML = counter
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+btn2.addEventListener("click" , function sum() {
+    if (h1.innerHTML > 0) {
+        counter--
+        h1.innerHTML = counter
+    }
+})
 
 
 
