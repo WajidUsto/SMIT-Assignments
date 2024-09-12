@@ -604,22 +604,22 @@
 
 
 
-let btn1 = document.querySelector("#btn1")
-let btn2 = document.querySelector("#btn2")
-let h1 = document.querySelector("#head")
+// let btn1 = document.querySelector("#btn1")
+// let btn2 = document.querySelector("#btn2")
+// let h1 = document.querySelector("#head")
 
-let counter = 0
+// let counter = 0
 
-btn1.addEventListener("click" , function sum() {
-    counter++
-    h1.innerHTML = counter
-})
-btn2.addEventListener("click" , function sum() {
-    if (h1.innerHTML > 0) {
-        counter--
-        h1.innerHTML = counter
-    }
-})
+// btn1.addEventListener("click" , function sum() {
+//     counter++
+//     h1.innerHTML = counter
+// })
+// btn2.addEventListener("click" , function sum() {
+//     if (h1.innerHTML > 0) {
+//         counter--
+//         h1.innerHTML = counter
+//     }
+// })
 
 
 // Arrays
@@ -636,6 +636,24 @@ btn2.addEventListener("click" , function sum() {
 //sort
 //reverse
 //indexof
+
+
+
+
+
+let fruits = ["Mango" , "Orange" , "banana" , "Watermelom" , "Guava" , "Mango"]
+
+// fruits.push()
+
+console.log(fruits.slice(1 , 3 , "Update"));
+
+
+
+
+
+
+
+
 
 
 
