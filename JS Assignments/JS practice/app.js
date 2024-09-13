@@ -641,13 +641,11 @@
 
 
 
-let fruits = ["Mango" , "Orange" , "banana" , "Watermelom" , "Guava" , "Mango"]
+// let fruits = ["Mango" , "Orange" , "banana" , "Watermelom" , "Guava" , "Mango"]
 
-// fruits.push()
+// // fruits.push()
 
-console.log(fruits.slice(1 , 3 , "Update"));
-
-
+// console.log(fruits.slice(1 , 3 , "Update"));
 
 
 
@@ -664,6 +662,17 @@ console.log(fruits.slice(1 , 3 , "Update"));
 
 
 
+
+
+
+
+
+
+let num = 2
+
+for(let i = 1; i <= 10; i++){
+    console.log(num + " * " + i + " = " + num * i);
+}
 
 
 
