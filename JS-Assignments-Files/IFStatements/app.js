@@ -20,7 +20,19 @@
 //     console.log("The number is divisible by 3");
 // }else{
 //     console.log("The number is not divisible by 3");
-    
 // }
 
+
+
+// Q3 ANS
+// Check Age
+
+let age = prompt("Enter You Age!");
+
+if (age > 18) {
+    console.log("Old Enough");
+    
+} else {
+    console.log("Young Enough");
+}
 
