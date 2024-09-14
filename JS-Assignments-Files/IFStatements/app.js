@@ -27,12 +27,24 @@
 // Q3 ANS
 // Check Age
 
-let age = prompt("Enter You Age!");
+// let age = prompt("Enter You Age!");
 
-if (age > 18) {
-    console.log("Old Enough");
+// if (age > 18) {
+//     console.log("Old Enough");
     
-} else {
-    console.log("Young Enough");
-}
+// } else {
+//     console.log("Young Enough");
+// }
 
+
+// Q4 ANS
+// Similar Name
+// let usersName = prompt("Enter Your Name!")
+// let Name = "Wajid"
+
+// if (Name == usersName) {
+//     console.log(`Congratulation ${usersName} My Name is ${Name}`);
+    
+// } else {
+//     console.log(`${usersName} We Don't have a Same Name`);
+// }
