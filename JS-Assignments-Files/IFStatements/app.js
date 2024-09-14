@@ -49,7 +49,7 @@
 //     console.log(`${usersName} We Don't have a Same Name`);
 // }
 
-// Q7
+// Q7 ANS
 // Check Calculations /*-+
 
 
@@ -61,30 +61,91 @@
 // }
 // cal()
 
-// Q8 
+// Q8 ANS
 // Clock Format
 
-let time = prompt("Enter Time!")
-time = 1900
+// let time = prompt("Enter Time!")
 
-if (time >= 0 && time <= 1200) {
-    console.log("Good Morning!");
-}
-else if (time >= 1200 && time <= 1700) {
-    console.log("Good Evening!");
-} 
-else if (condition) {
+// if (time >= 7 && time <= 11) {
+//     console.log("Good Morning!");
+// }
+// else if (time >= 11 && time <= 1) {
+//     console.log("Good After Noon!");
+// } 
+// else if (time >= 1 && time <= 6) {
+//     console.log("Good Evening!");
+// } 
+// else {
+//     console.log("Good Night!");
+// }
+
+
+// Q9 ANS
+// Leap year
+
+// let year = prompt("Enter Year!")
+
+// if (year % 400 == 0) {
+//     console.log(year + " is a leap Year");
     
-} 
-else if (condition) {
+// } else {
+//     console.log(year + " is not a leap Year");
+// }
+
+// Q10 ANS
+// Passowrd Checker
+// let usersPass = prompt("Enter Passowrd!")
+// let Passowrd = "123456"
+
+// if (Passowrd == usersPass) {
+//     console.log("Correct You Entered The conrrect Passowrd");
     
-} 
-else if (condition) {
+// } else {
+//     console.log(alert("Please Enter The Correct Password!"));
     
-} 
-else if (condition) {
+// }
+
+// Q11 ANS
+// Name Checker
+
+// let usersName = prompt("Enter Your Name!")
+
+// if (usersName === "Wajid") {
+//     document.write("hello " + usersName + "You Entered Correct Name ")
+// } else {
+//     document.write("You Entered Wrong Name " + usersName )
+// }
+
+
+
+//  Q13 ANS
+// Intiger Equal
+
+// let num1 = +prompt("Enter Num 1")
+// let num2 = +prompt("Enter Num 2")
+
+// if (num1 > num2) {
+//     console.log(`The larger Number is ${num1}`);
     
-} 
-else {
-    
-}
+// }else if(num1 < num2){
+//     console.log(`The larger Number is ${num2}`);
+// }else{
+//     console.log(`Both Numbers Are Equal!`);
+// }
+
+
+
+// Q14 ANS
+// Positive OR Negative 
+
+// let num = prompt("Enter Any Number!")
+
+// if (num  % 2 == 0) {
+//     console.log("The number is Positive");
+// }else{
+//     console.log("The number is Negative");
+// }
+
+// Q15 ANS
+// Food Timer
+
