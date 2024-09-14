@@ -149,3 +149,21 @@
 // Q15 ANS
 // Food Timer
 
+    let time = prompt("Enter Time")
+
+    if (time >= 6 && time < 9) {
+        console.log(`Its Time To BreakFast!`);
+        
+    }
+    else if (time >= 11 && time < 14) {
+        console.log(`Its Time To Lunch!`);
+        
+    }
+    else if (time >= 14 && time < 18) {
+        console.log(`Its Time To Dinner!`);
+    }
+    else {
+        console.log(`Sorry, you'll have to wait, or go get a snack.`);
+        
+    }
+
