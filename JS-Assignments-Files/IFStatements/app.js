@@ -48,3 +48,43 @@
 // } else {
 //     console.log(`${usersName} We Don't have a Same Name`);
 // }
+
+// Q7
+// Check Calculations /*-+
+
+
+// let num1 = prompt("Enter num1")
+// let num2 = prompt("Enter num2")
+
+// function cal(){
+//     console.log(num1 + num2);
+// }
+// cal()
+
+// Q8 
+// Clock Format
+
+let time = prompt("Enter Time!")
+time = 1900
+
+if (time >= 0 && time <= 1200) {
+    console.log("Good Morning!");
+}
+else if (time >= 1200 && time <= 1700) {
+    console.log("Good Evening!");
+} 
+else if (condition) {
+    
+} 
+else if (condition) {
+    
+} 
+else if (condition) {
+    
+} 
+else if (condition) {
+    
+} 
+else {
+    
+}
