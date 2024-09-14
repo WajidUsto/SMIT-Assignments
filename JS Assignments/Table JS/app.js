@@ -2,14 +2,15 @@
 let input = document.getElementById("input")
 let btn = document.querySelector("button")
 let p = document.querySelector("p")
+let h1 = document.querySelector("#h1")
 
 btn.addEventListener("click" ,function table() {
+    let head = `<h3>Your Printed Table Here!</h3>`
+    h1.innerHTML = head
     for(let index = 1; index <= 10; index++){
-        // console.log(input.value + " x " + index + " = " + index * input.value);
-        // console.log(`${2} x ${i} = ${i * 2}`);
         p.innerHTML += `${input.value} x ${index} = ${index * input.value}<br/>`
-        input.value = ""
     }
+    input.value = ""
 })
 
 
