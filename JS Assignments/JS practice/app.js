@@ -723,7 +723,6 @@ for(let i = 1; i <= 10; i++){
 
 
 
-
 // var a = document.querySelector("#total")
 // function btn() {
 //     return a.innerHTML = "hello wajid"
