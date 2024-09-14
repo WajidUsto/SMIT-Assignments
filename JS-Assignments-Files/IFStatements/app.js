@@ -149,21 +149,67 @@
 // Q15 ANS
 // Food Timer
 
-    let time = prompt("Enter Time")
+    // let time = prompt("Enter Time")
 
-    if (time >= 6 && time < 9) {
-        console.log(`Its Time To BreakFast!`);
+    // if (time >= 6 && time < 9) {
+    //     console.log(`Its Time To BreakFast!`);
         
-    }
-    else if (time >= 11 && time < 14) {
-        console.log(`Its Time To Lunch!`);
+    // }
+    // else if (time >= 11 && time < 14) {
+    //     console.log(`Its Time To Lunch!`);
         
-    }
-    else if (time >= 14 && time < 18) {
-        console.log(`Its Time To Dinner!`);
-    }
-    else {
-        console.log(`Sorry, you'll have to wait, or go get a snack.`);
-        
-    }
+    // }
+    // else if (time >= 14 && time < 18) {
+    //     console.log(`Its Time To Dinner!`);
+    // }
+    // else {
+    //     console.log(`Sorry, you'll have to wait, or go get a snack.`);
+    // }
+
+
+
+
+
+// Q16 ANS
+// type Checker
+
+// let a = "Hello"
+// let b = 20
+// let c = true
+// let d =
+
+// console.log(typeof(a));
+// console.log(typeof(b));
+// console.log(typeof(c));
+// console.log(typeof(d));
+
+
+// Q17 ANS
+// comparison operator
+
+// let num = +prompt("Enter Number!")
+
+// if (num == 10 ) {
+//     console.log(`10 is Equal to ${num}`);
+    
+// } else {
+//     console.log(`10 is NOT Equal to ${num}`);
+// }
+
+
+// Q20
+// Check Age
+
+// let age = prompt("Enter You Age!");
+
+// if (age > 18) {
+//     console.log("Old Enough");
+    
+// } else {
+//     console.log("Young Enough");
+// }
+
+
+
+
 
