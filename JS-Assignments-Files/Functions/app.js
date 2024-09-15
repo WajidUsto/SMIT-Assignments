@@ -57,18 +57,19 @@
 // Q6
 // Counting program
 
-let start = prompt("enter num1")
-let end = prompt("enter num2")
-// let end = document.getElementById("end")
-// let btn = document.querySelector("button")
+// let start = prompt("enter num1")
+// let end = prompt("enter num2")
+// // let end = document.getElementById("end")
+// // let btn = document.querySelector("button")
 
-function total() {
-    for(let i = start; i <= end; i++){
-        let result = i
-        console.log(result);
-    }
-}
-console.log(total());
+// function total() {
+//     for(let i = start; i <= end; i++){
+//         let result = i
+//         console.log(result);
+//     }
+// }
+// total()
+// console.log(total());
 
 
 // Q7
@@ -80,7 +81,6 @@ console.log(total());
 // function total() {
 //     if (num1 > num2) {
 //         console.log(`the largest number is ${num1}`);
-        
 //     } else if(num2 > num1){
 //         console.log(`the Smallest number is ${num2}`);
 //     }
@@ -91,4 +91,44 @@ console.log(total());
 // total()
 
 // Q8
-// 
+// check TypeOff
+
+// let param = function inner() { 
+//     return typeof inner; 
+// }
+// console.log(param());
+
+
+// Q9
+// Power Function
+
+// let a = 2
+// let b = 3
+
+// function sum() {
+//     let total = a ** b
+//     return total
+// }
+// console.log(sum());
+
+// Q10
+// Dice Game
+
+// function dice() {
+//     return Math.random() * 6 + 1
+// }
+// let show = dice()
+// console.log(`The Dice Value is ${show}`);
+
+
+// Q11
+// reverse elements
+
+// let arr = [1 , 2 , 3 ,4 , 5 , 6]
+
+// function show() {
+//     console.log(arr.reverse());
+// }
+
+
+
