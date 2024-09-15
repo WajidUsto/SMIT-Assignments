@@ -130,5 +130,20 @@
 //     console.log(arr.reverse());
 // }
 
+// Q12 Age Calculator
+
+    let birth = prompt("Enter your Birth Year!")
+    let year = prompt("Enter your Current Year!")
+
+    function age() {
+        let showBirth = `Your Birth date is ${birth}
+`
+        let showYear = `Your Year date is ${year}`
+        console.log(showBirth + showYear);
+        let age = birth - year
+        let show = `Your Current Age is ${age}`
+        return show
+    }
+console.log(age());
 
 
