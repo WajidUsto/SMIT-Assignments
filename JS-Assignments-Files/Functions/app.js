@@ -26,13 +26,69 @@
 // Q3 ANS
 // Sum of Two Numbers
 
-let num1 = +prompt("Enter Num1")
-let num2 = +prompt("Enter Num2")
+// let num1 = +prompt("Enter Num1")
+// let num2 = +prompt("Enter Num2")
 
-function sum() {
-    let total = `Your Total Sum is ${num1 + num2}`
-    return total
+// function sum() {
+//     let total = `Your Total Sum is ${num1 + num2}`
+//     return total
+// }
+// console.log(sum());
+
+
+// Q4
+// Argument Pass
+
+// function value(num1 , num2 , num3) {
+//     console.log(`The Sum of These Numbers is ${num1 + num2 + num3}`);
+    
+// }
+// value(5 , 5 ,5)
+
+
+// Q5
+// Argument Square
+
+// function value(num1 , num2) {
+//     console.log(`The Sum of These Numbers is ${num1 / num2}`);
+// }
+// value(5 , 5)
+
+// Q6
+// Counting program
+
+let start = prompt("enter num1")
+let end = prompt("enter num2")
+// let end = document.getElementById("end")
+// let btn = document.querySelector("button")
+
+function total() {
+    for(let i = start; i <= end; i++){
+        let result = i
+        console.log(result);
+    }
 }
-console.log(sum());
+console.log(total());
 
 
+// Q7
+// Finding largest Number
+
+// let num1 = prompt("Enter Num1")
+// let num2 = prompt("Enter Num2")
+
+// function total() {
+//     if (num1 > num2) {
+//         console.log(`the largest number is ${num1}`);
+        
+//     } else if(num2 > num1){
+//         console.log(`the Smallest number is ${num2}`);
+//     }
+//     else {
+//         console.log( `Both Numbers Are Equal ${num1} ${num2}`)
+//     }
+// }
+// total()
+
+// Q8
+// 
