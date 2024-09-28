@@ -51,3 +51,19 @@ let show2 = document.querySelector("#show2")
 //     <h4>The Element of Index ${[i]} ${fruits[i]}</h4>
 //     `
 // }
+
+
+// Q6
+// Counting Using For loop
+
+
+// simple Counting
+
+let count = []
+show.innerHTML = "Counting" + count
+for (let i = 1; i <= 15; i++) {
+    show.innerHTML += `
+    ${count.push(i)}
+    `
+}
+show.innerHTML = ("Counting : " + count.join(", "));
