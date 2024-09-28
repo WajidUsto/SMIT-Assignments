@@ -70,10 +70,10 @@ let show2 = document.querySelector("#show2")
 // Reverse Counting
 
 
-let count = []
-for (let i = 20; i >= 1; i--) {
-    show.innerHTML += `
-    ${count.push(i)}
-    `
-}
-show.innerHTML = "Reverse Counting  " + count.join(", ")
+// let count = []
+// for (let i = 20; i >= 1; i--) {
+//     show.innerHTML += `
+//     ${count.push(i)}
+//     `
+// }
+// show.innerHTML = "Reverse Counting  " + count.join(", ")
