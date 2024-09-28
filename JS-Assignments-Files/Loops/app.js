@@ -65,15 +65,123 @@ let show2 = document.querySelector("#show2")
 //     ${count.push(i)}
 //     `
 // }
-// show.innerHTML = ("Counting : " + count.join(", "));
+// show.innerHTML = `<h5>Simple Counting :  ${count.join(", ")}</h5>`
 
-// Reverse Counting
+// // Reverse Counting
 
 
-// let count = []
+// let Reverse = []
 // for (let i = 20; i >= 1; i--) {
 //     show.innerHTML += `
-//     ${count.push(i)}
+//     ${Reverse.push(i)}
 //     `
 // }
-// show.innerHTML = "Reverse Counting  " + count.join(", ")
+// show.innerHTML = `<h5>Reverse Counting : ${Reverse.join(", ")}</h5>`
+
+
+
+// // Even Counting
+
+// let Even = []
+
+// for (let i = 0; i <= 20; i +=2 ) {
+//     Even.push(i)
+// }
+// show.innerHTML += `<h5>Even Number Counting : ${Even.join(", ")}</h5>` 
+
+
+// // odd Counting
+
+// let odd = []
+
+// for (let i = 0; i <= 20; i +=3 ) {
+//     odd.push(i)
+// }
+// show.innerHTML += `<h5>Even Number Counting : ${odd.join(", ")}</h5>` 
+
+
+// let series = []
+
+// for (let i = 2; i <= 21; i += 2) {
+//     series.push(i)
+// }
+// console.log(series);
+
+// show.innerHTML = `Series Counting : ${series.join("K, ")}`
+
+
+// let check = prompt("Wellcome To My bakrey Which Item you want!")
+// Bakrey Array
+
+
+
+// else if (input.value == arr[1]){
+//     show.innerHTML = (`the ${arr[1]} is available on ${i} Index`);
+//     // break
+// }else if (input.value == arr[2]){
+//     show.innerHTML = (`the ${arr[2]} is available on ${i} Index`);
+//     // break
+// }else if (input.value == arr[3]){
+//     show.innerHTML = (`the ${arr[3]} is available on ${i} Index`);
+//     // break
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let input = document.querySelector("input")
+let arr = ["Orange" , "Pastry" , "Juice" , "Fruits" , "Cake"]
+
+function enter() {
+    for (let i = 0; i < arr.length; i++) {
+        if (input.value.toLowerCase() === arr[i].toLowerCase()) {
+            show.innerHTML = (`the ${arr[i]} is available on ${i} Index`);
+            break
+        }
+        else{
+            show.innerHTML = (`The ${input.value} is Not Available on Our Backery`);
+        }
+    }
+    input.value = ""
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
