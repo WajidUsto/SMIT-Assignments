@@ -59,11 +59,21 @@ let show2 = document.querySelector("#show2")
 
 // simple Counting
 
+// let count = []
+// for (let i = 1; i <= 15; i++) {
+//     show.innerHTML += `
+//     ${count.push(i)}
+//     `
+// }
+// show.innerHTML = ("Counting : " + count.join(", "));
+
+// Reverse Counting
+
+
 let count = []
-show.innerHTML = "Counting" + count
-for (let i = 1; i <= 15; i++) {
+for (let i = 20; i >= 1; i--) {
     show.innerHTML += `
     ${count.push(i)}
     `
 }
-show.innerHTML = ("Counting : " + count.join(", "));
+show.innerHTML = "Reverse Counting  " + count.join(", ")
