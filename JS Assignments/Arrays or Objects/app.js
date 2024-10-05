@@ -65,20 +65,14 @@ for (let i = 0; i < card.length; i++) {
     <h3>InStock : ${card[i].InStock}</h3>
     <button onclick = "getresult(${i})">
     <span class="span-mother">
-        <span>B</span>
-        <span>u</span>
-        <span>t</span>
-        <span>t</span>
-        <span>o</span>
-        <span>n</span>
+        <span>ADD</span>
+        <span>To</span>
+        <span>Cart</span>
     </span>
     <span class="span-mother2">
-        <span>B</span>
-        <span>u</span>
-        <span>t</span>
-        <span>t</span>
-        <span>o</span>
-        <span>n</span>
+        <span>ADD</span>
+        <span>To</span>
+        <span>Cart</span>
     </span>
     </button>
     </div>
@@ -86,12 +80,15 @@ for (let i = 0; i < card.length; i++) {
 }
 
 
-
-
+let cart = document.querySelector("#cart")
+let num = 0;
 
 function getresult(i) {
     console.log(card[i]);
-    
+    cart.innerHTML = `
+    Cart :
+    <span>${num++}</span>
+    `
 }
 
 
