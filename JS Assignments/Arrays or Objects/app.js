@@ -63,7 +63,7 @@ for (let i = 0; i < card.length; i++) {
     <h3>Product : ${card[i].product}</h3>
     <h3>Price : ${card[i].Price}</h3>
     <h3>InStock : ${card[i].InStock}</h3>
-    <button onclick = "getresult(${i})">
+    <button onclick = "addcart(${i})">
     <span class="span-mother">
         <span>ADD</span>
         <span>To</span>
@@ -75,6 +75,16 @@ for (let i = 0; i < card.length; i++) {
         <span>Cart</span>
     </span>
     </button>
+    <button onclick = "deletecart()" style = "margin-top = "20px"">
+    <span class="span-mother">
+        <span>Delete</span>
+        <span>Cart</span>
+    </span>
+    <span class="span-mother2">
+        <span>Delete</span>
+        <span>Cart</span>
+    </span>
+    </button>
     </div>
     ` 
 }
@@ -83,7 +93,7 @@ for (let i = 0; i < card.length; i++) {
 let cart = document.querySelector("#cart")
 let num = 0;
 
-function getresult(i) {
+function addcart(i) {
     console.log(card[i]);
     cart.innerHTML = `
     Cart :
@@ -91,7 +101,12 @@ function getresult(i) {
     `
 }
 
-
+function deletecart() {
+    cart.innerHTML = `
+    Cart :
+    <span>${num--}</span>
+    `
+}
 
 
 
