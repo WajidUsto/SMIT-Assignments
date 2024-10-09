@@ -661,20 +661,27 @@
 
 
 
+// let num = 2
+
+// for(let i = 1; i <= 10; i++){
+//     console.log(num + " * " + i + " = " + num * i);
+// }
 
 
 
 
 
+let userName = prompt("Enter Your Name")
+let userAge = +prompt("Enter Your Age")
 
+let userData = {}
 
-let num = 2
+userData.userName = userName
+userData.userAge = userAge
 
-for(let i = 1; i <= 10; i++){
-    console.log(num + " * " + i + " = " + num * i);
-}
+delete userData.userName
 
-
+console.log(userData);
 
 
 
