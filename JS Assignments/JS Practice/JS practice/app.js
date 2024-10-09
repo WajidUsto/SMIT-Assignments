@@ -671,17 +671,65 @@
 
 
 
-let userName = prompt("Enter Your Name")
-let userAge = +prompt("Enter Your Age")
+// let userName = prompt("Enter Your Name")
+// let userAge = +prompt("Enter Your Age")
 
-let userData = {}
+// let userData = {}
 
-userData.userName = userName
-userData.userAge = userAge
+// userData.userName = userName
+// userData.userAge = userAge
 
-delete userData.userName
+// delete userData.userName
 
-console.log(userData);
+// console.log(userData);
+
+
+
+
+
+
+
+
+
+
+
+
+
+function Mydata(UserName , userAge , Education) {
+    this.name = UserName
+    this.age = userAge
+    this.qualification = Education
+    this.func = function () {
+        alert(`Hello ${UserName}`)
+    }
+}
+
+let person = new Mydata("Wajid" , 18 , "Matric")
+Mydata.func()
+
+let person2 = new Mydata("Abdullah" , 18 , "BCSS" )
+
+
+console.log(person , Mydata.func());
+console.log(person2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
