@@ -695,30 +695,91 @@
 
 
 
-function Mydata(UserName , userAge , Education) {
-    this.name = UserName
-    this.age = userAge
-    this.qualification = Education
-    this.func = function () {
-        alert(`Hello ${UserName}`)
-    }
-}
+// function Mydata(UserName , userAge , Education) {
+//     this.name = UserName
+//     this.age = userAge
+//     this.qualification = Education
+//     this.func = function () {
+//         alert(`Hello ${UserName}`)
+//     }
+// }
 
-let person = new Mydata("Wajid" , 18 , "Matric")
-Mydata.func()
+// let person = new Mydata("Wajid" , 18 , "Matric")
+// Mydata.func()
 
-let person2 = new Mydata("Abdullah" , 18 , "BCSS" )
-
-
-console.log(person , Mydata.func());
-console.log(person2);
+// let person2 = new Mydata("Abdullah" , 18 , "BCSS" )
 
 
+// console.log(person , Mydata.func());
+// console.log(person2);
 
 
 
 
 
+
+// function Car(name, price, color, brand) {
+//   this.carName = name;
+//   this.carPrice = price;
+//   this.companyBrand = brand;
+//   this.color = color;
+//   this.properties = [];
+// }
+// var carOne = new Car("Mehran", 1000000, "White", "Suzuki");
+// carOne.carName = "Corolla";
+// console.log(carOne);
+
+// var paragraph = document.querySelectorAll(".para");
+// console.log(paragraph[2]);
+
+// var paragraph = document.getElementsByTagName("p");
+
+// var paragraph = document.getElementById("para");
+// paragraph.innerHTML = "Dummy Text";
+// console.log(paragraph);
+
+    // var inputEl = document.getElementById("todo");
+    // var btn = document.getElementById("add-btn");
+    // var list = document.querySelector(".list");
+    // var todoItems = [];
+    // var indexNo = -1;
+
+    // function deleteTodo(index) {
+    // todoItems.splice(index, 1);
+    // renderTask();
+    // }
+
+    // function editTodo(index) {
+    // var item = todoItems[index];
+    // inputEl.value = item;
+    // btn.innerHTML = "Update Todo";
+    // indexNo = index;
+    // }
+
+    // btn.addEventListener("click", function () {
+    // if (indexNo > -1) {
+    //     todoItems.splice(indexNo, 1, inputEl.value);
+    //     indexNo = -1;
+    //     btn.innerHTML = "Add Todo";
+    // } else {
+    //     todoItems.push(inputEl.value);
+    // }
+    // renderTask();
+    // inputEl.value = "";
+    // });
+
+    // function renderTask() {
+    // list.innerHTML = "";
+    // for (var index = 0; index < todoItems.length; index++) {
+    //     list.innerHTML += ` <li>
+    //     <p>${todoItems[index]}</p>
+    //     <div>
+    //         <button onclick="deleteTodo(${index})">Delete</button>
+    //         <button onclick="editTodo(${index})">Edit</button>
+    //     </div>
+    // </li>`;
+    // }
+    // }
 
 
 
