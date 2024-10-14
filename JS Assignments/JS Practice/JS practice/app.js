@@ -798,8 +798,28 @@
 
 
 
+let ul = document.querySelector("#ul")
+
+let li1 = document.createElement("LI")
+let liText = document.createTextNode("Karachi")
+li1.appendChild(liText)
+let li2 = document.createElement("LI")
+let l2Text = document.createTextNode("Lahore")
+li2.appendChild(l2Text)
+let li3 = document.createElement("LI")
+let l3Text = document.createTextNode("Islamabad")
+li3.appendChild(l3Text)
+let li4 = document.createElement("LI")
+let l4Text = document.createTextNode("Shikarpur")
+li4.appendChild(l4Text)
 
 
+ul.appendChild(li1)
+ul.appendChild(li2)
+ul.appendChild(li3)
+ul.appendChild(li4)
+
+console.log(ul);
 
 
 
