@@ -137,7 +137,7 @@ const people = [
 
 people.map(function (elem , i) {
     console.log(elem.name, elem.age, elem.occupation);
-    console.log(elem.age [i]);
+    console.log(people);
     // console.log(elem.occupation);
 })
 
