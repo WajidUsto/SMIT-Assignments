@@ -227,21 +227,37 @@ const products = [
 ];
 
 let container = document.querySelector("#cards-container")
+let filterBtn = document.querySelector(".btn")
 
-products.map(function (item) {
-    container.innerHTML += `
-    <div class="card">
-            <div class="card bg-primary text-primary-content w-96" >
-                <div class="card-body">
-                    <h2 class="card-title">Name : ${item.name}</h2>
-                    <h2 class="card-title">Caegory : ${item.category}</h2>
-                    <h2 class="card-title">Price : ${item.price}</h2>
-                    <div class="card-actions justify-end">
-                        <button class="btn">Add To Cart!</button>
+function renderItems() {
+    container.innerHTML = ""
+    products.map(function (item) {
+        container.innerHTML += `
+        <div class="card">
+                <div class="card bg-primary text-primary-content w-96" >
+                    <div class="card-body">
+                        <h2 class="card-title">Name : ${item.name}</h2>
+                        <h2 class="card-title">Caegory : ${item.category}</h2>
+                        <h2 class="card-title">Price : ${item.price}</h2>
+                        <div class="card-actions justify-end">
+                            <button class="btn">Add To Cart!</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    `
-})
+        `
+    })
+}
+
+renderItems(products)
+
+
+
+function filteredArr(filterBtn) {
+    const filterProduct =  products.filter(items => (items.category === filterBtn.innerHTML))
+    // const filterProduct =  products.filter(function items(items) {
+    //     items.category === filterBtn.innerHTML
+    // } )
+    renderItems(filterProduct)
+}
 
