@@ -229,9 +229,11 @@ const products = [
 let container = document.querySelector("#cards-container")
 let filterBtn = document.querySelector(".btn")
 
-function renderItems() {
+
+
+function renderItems(array) {
     container.innerHTML = ""
-    products.map(function (item) {
+    array.map(function (item) {
         container.innerHTML += `
         <div class="card">
                 <div class="card bg-primary text-primary-content w-96" >
@@ -240,7 +242,7 @@ function renderItems() {
                         <h2 class="card-title">Caegory : ${item.category}</h2>
                         <h2 class="card-title">Price : ${item.price}</h2>
                         <div class="card-actions justify-end">
-                            <button class="btn">Add To Cart!</button>
+                        <button class="btn">Add To Cart!</button>
                         </div>
                     </div>
                 </div>
@@ -252,12 +254,13 @@ function renderItems() {
 renderItems(products)
 
 
-
 function filteredArr(filterBtn) {
-    const filterProduct =  products.filter(items => (items.category === filterBtn.innerHTML))
-    // const filterProduct =  products.filter(function items(items) {
-    //     items.category === filterBtn.innerHTML
-    // } )
-    renderItems(filterProduct)
+    console.log(products);
+    const falalafa = products.filter( item => item.category === filterBtn.innerHTML)
+    console.log(falalafa);
+    renderItems(falalafa)
+    console.log(filterBtn.innerHTML);
+    
 }
+
 
