@@ -253,14 +253,11 @@ function renderItems(array) {
 
 renderItems(products)
 
-
-function filteredArr(filterBtn) {
-    console.log(products);
-    const falalafa = products.filter( item => item.category === filterBtn.innerHTML)
-    console.log(falalafa);
-    renderItems(falalafa)
-    console.log(filterBtn.innerHTML);
-    
+function filteredArr(btn) {
+    console.log(btn.innerHTML)
+    const filterArr = products.filter(item => (item.category === btn.innerHTML))
+    renderItems(filterArr)
 }
+
 
 
