@@ -798,28 +798,28 @@
 
 
 
-let ul = document.querySelector("#ul")
+// let ul = document.querySelector("#ul")
 
-let li1 = document.createElement("LI")
-let liText = document.createTextNode("Karachi")
-li1.appendChild(liText)
-let li2 = document.createElement("LI")
-let l2Text = document.createTextNode("Lahore")
-li2.appendChild(l2Text)
-let li3 = document.createElement("LI")
-let l3Text = document.createTextNode("Islamabad")
-li3.appendChild(l3Text)
-let li4 = document.createElement("LI")
-let l4Text = document.createTextNode("Shikarpur")
-li4.appendChild(l4Text)
+// let li1 = document.createElement("LI")
+// let liText = document.createTextNode("Karachi")
+// li1.appendChild(liText)
+// let li2 = document.createElement("LI")
+// let l2Text = document.createTextNode("Lahore")
+// li2.appendChild(l2Text)
+// let li3 = document.createElement("LI")
+// let l3Text = document.createTextNode("Islamabad")
+// li3.appendChild(l3Text)
+// let li4 = document.createElement("LI")
+// let l4Text = document.createTextNode("Shikarpur")
+// li4.appendChild(l4Text)
 
 
-ul.appendChild(li1)
-ul.appendChild(li2)
-ul.appendChild(li3)
-ul.appendChild(li4)
+// ul.appendChild(li1)
+// ul.appendChild(li2)
+// ul.appendChild(li3)
+// ul.appendChild(li4)
 
-console.log(ul);
+// console.log(ul);
 
 
 
@@ -864,6 +864,38 @@ console.log(ul);
 //     return a.innerHTML = "hello wajid"
 // }
 // console.log(btn());
+
+
+
+
+
+let num = 5
+
+const promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        if (num == 5) {
+            resolve("Resolve Chal rhaa h")
+            // resolve()
+        } else {
+            reject("Reject Chal rhaa h")
+            // reject()
+        }
+    }, 2000);
+})
+
+
+promise
+.then((resolve)=>{
+    console.log(resolve);
+    
+})
+.catch((reject)=>{
+    console.log(reject);
+})
+
+
+
+
 
 
 
